@@ -19,11 +19,11 @@ export default function Coming() {
             {/*
             <div className={styles.footer}>
                 <p className={styles.insta}>
-                    <a href="https://www.instagram.com/iiitkottayam/?hl=en" target="_blank" rel="noreferrer">Instagram</a>&nbsp;
+                    <a href="/" target="_blank" rel="noreferrer">Instagram</a>&nbsp;
                 </p>
                 <p className={styles.link}>/ &nbsp;</p>
                 <p className={styles.web}>
-                    <a href="https://www.iiitkottayam.ac.in/" target="_blank" rel="noreferrer"> Website</a>
+                    <a href="/" target="_blank" rel="noreferrer"> Website</a>
                 </p>
             </div>
             */}

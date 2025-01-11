@@ -13,10 +13,10 @@ const Header = () => {
     return (
         <>
             <div className={styles.hbody} id="Header">
-                <video autoPlay muted loop className={styles.videoBackground}>
+                {/* <video autoPlay muted loop className={styles.videoBackground}>
                     <source src="vecteezy_blue-corporate-background-loop-ai-generated_30950091.mov" type="video/mp4" />
                     Your browser does not support the video tag.
-                </video>
+                </video> */}
                 <p
                     className={styles.heading}
                     data-aos="fade-up"

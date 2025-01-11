@@ -5,12 +5,13 @@ export default function Speaker(props) {
         <div className={styles.speaker}>
             <div className={styles.image}>
                 {props.image && (
-                    <img
-                        src={props.image}
-                        alt={props.name}
-                        height={200}
-                        width={200}
-                    ></img>
+                   <Image
+                   src={props.image}
+                   alt={props.name}
+                   height={200}
+                   width={200}
+                   priority
+               />
                 )}
             </div>
             <div className={styles.info}>

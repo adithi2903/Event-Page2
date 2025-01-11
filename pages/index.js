@@ -44,7 +44,7 @@ export default function Home() {
             <div className={styles.container} style={{ height: height }}>
                 <Head>
                     <title>NEURA AI CONCLAVE - MIT BLR</title>
-                    <meta
+                    {/* <meta
                         name="description"
                         content="NEURA AI - Manipal Institute of Technology- Bengaluru"
                     />
@@ -55,13 +55,13 @@ export default function Home() {
                     <meta
                         property="og:description"
                         content="NEURA AI - Manipal Institute of Technology- Bengaluru"
-                    />
+                    /> */}
                     <meta
                         property="og:url"
                         content="https://www.manipal.edu"
                     />
                     <meta property="og:type" content="website" />
-                    <link rel="icon" href="/favicon.ico" />
+                    <link rel="icon" href="/NEURA_AI.png" />
                 </Head>
                 {router.asPath === '/' ? (
                     show ? (

@@ -21,8 +21,9 @@ const About = () => {
                     NEURA AI is the biggest AI ML club in the campus hosting a variety of events 
                     <br />
                     <br />
-                    Just like the pole star dhruva, this event is your chance to
-                    shine bright and bring into play the technical talents!
+                    Dive into the world of Artificial Intelligence and Machine Learning, where innovation meets implementation.
+                    Join us to explore cutting-edge technologies, develop groundbreaking solutions, and shape the future of AI! at
+                    <h2>Industry Conclave 2.0</h2>
 
                 </p>
                 {/* <div className={styles.btn_container}>

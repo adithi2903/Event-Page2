@@ -5,25 +5,25 @@ const events = [
         name: 'Commit The Flag',
         tag: 'Capture The Flag',
         description: `To create the best lock, know what breaks the good ones around.\n \nCompete for the final flag in a labyrinth of information with 6 rounds, ranging from simple ciphers to intricate reverse engineering puzzles.\nCan you or your team Capture the Flag?`,
-        date: '30th October',
+        date: '26th January 2025 ',
         time: '4:30pm - 8:30pm',
         organisers: [
             {
                 key: '1',
                 name: 'Gouri Nair',
-                email: 'gourinair20bec7@\u200Biiitkottayam.ac.in',
-                phoneNumber: '08606922585',
+                email: 'gouri_nair@manipal.edu',
+                phoneNumber: '08506922580',
             },
             {
                 key: '2',
                 name: 'Nikhil Menon',
-                email: 'nikhilmenon20bcs16@\u200Biiitkottayam.ac.in ',
-                phoneNumber: '7259395776',
+                email: 'nikhilmenon@manipal.edu ',
+                phoneNumber: '7059335706',
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793220/CTF_bfluvm.png',
         registration:
-            'https://dare2compete.com/p/commit-the-flag-dhruva-indian-institute-of-information-technology-iiit-kottayam-224044?lb=wTDkKUs',
+            '/',
         leadLink:"1ikUbjDjqULqP3sSQeZPoYP3Wj4lwLW90PHB1ihbIFfk",    
     },
     {
@@ -33,24 +33,24 @@ const events = [
         tag: 'A Deep Learning Approach',
         description:
             '“Shut the f— up and let me die in peace.”-Mike, Now that’s deep or is it umm....dark?\n \nShow off your Deep Learning skills by creating the most efficient model from the provided data set and problem statement while experiencing the dramatic, dark and action-packed storyline of breaking bad.',
-        date: '30th October',
+        date: '27th January 2025',
         time: '8:00 am',
         organisers: [
             {
                 key: '1',
                 name: 'Aditya Srinivas Menon',
-                email: 'adityasrinivas20bcs8@\u200Biiitkottayam.ac.in',
-                phoneNumber: '(+91) 7406540439',
+                email: 'aditya_srin@manipal.edu',
+                phoneNumber: '(+91) 8406848439',
             },
             {
                 key: '2',
                 name: 'Prasanna Devadiga',
-                email: 'prasanna2019@\u200Biiitkottayam.ac.in',
-                phoneNumber: '9607781923',
+                email: 'prasanna2019@manipal.edu',
+                phoneNumber: '9697781923',
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793392/BB_bcq4a4.jpg',
-        registration: 'https://forms.gle/dEafjBAL2QgXdf2h6',
+        registration: '/',
         leadLink:"1vMIoyz6Q6FOtx9pPPP92yKkfrrZ-boipmSPAaI0qB6Y",    
     },
     {
@@ -60,25 +60,25 @@ const events = [
         tag: 'Competitive Programming contest',
         description:
             'If TLE is something that you don’t wish even for your worst enemies, this event is for you.\n Compete with the best programmers, solve problems and top the leaderboard! The huge prize pool and the dope goodies are just the cherries on top. \n May the best algorithm win!',
-        date: '29th October',
+        date: '27th January',
         time: '6:00pm - 8:00pm',
         organisers: [
             {
                 key: '1',
                 name: 'Prabal Kalia',
-                email: 'prabalkalia18bcs@\u200Biiitkottayam.ac.in',
+                email: 'prabal@manipal.edu',
                 phoneNumber: '(+91) 8130580250',
             },
             {
                 key: '2',
                 name: 'Seshathri S',
-                email: 'seshathri2019@\u200Biiitkottayam.ac.in',
-                phoneNumber: '(+91) 9087609727',
+                email: 'seshathri@manipal.edu',
+                phoneNumber: '(+91) 903009737',
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793432/CP_Insta_p40r6s.jpg',
         registration:
-            'https://docs.google.com/forms/d/e/1FAIpQLSdmhqEWNW6Muy7dUTRUnfHUf4pap5elZZQzZ3A6SPtUiMr91A/viewform?usp=sf_link',
+            '/',
         leadLink:"1k2yejkk2p7URprQ71YsEw3jJr6F-bFe4JpdQ-Yz8Pr4",        
     },
     {
@@ -88,20 +88,20 @@ const events = [
         tag: 'Can you handle the SaSS?',
         description:
             'Are you even an engineer if you haven’t done some web dev?\nHere is a chance to implement all the Frontend facts you’ve learned so far.\nAll you’ve to do is replicate the given website. Let’s see how original your copy is!\nGet Set Develop',
-        date: '29th October',
+        date: '28th January 2025',
         time: '3:30pm - 5:00pm',
         organisers: [
             {
                 key: '1',
                 name: 'Shashank Srivastava',
                 email: 'shashank.srivastava25sks@\u200Bgmail.com',
-                phoneNumber: '(+91) 9793422020',
+                phoneNumber: '(+91) 976782020',
             },
             {
                 key: '2',
                 name: 'Sarthak Bindal',
                 email: 'bindalsarthak03@\u200Bgmail.com',
-                phoneNumber: '(+91) 7987957308',
+                phoneNumber: '(+91) 798795890',
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793230/WebDev_kdy8jd.png',
@@ -116,18 +116,18 @@ const events = [
         tag: 'Convince! Rebut! Win!',
         description:
             'Do you have a knack in coming up with dope counter arguments? Are you a tech enthusiast looking for a place to talk about your standpoint? Can you convince your opponent that the best ideas lie with you?  Well, TAKE DE BAIT already!',
-        date: '31st October',
+        date: '28th January 2025',
         time: '9:00am - 11:00am',
         organisers: [
             {
                 key: '1',
-                name: 'Aditi Shukla',
-                email: 'techclub@\u200Biiitkottayam.ac.in',
+                name: 'Panchadip',
+                email: 'panchadip.mitblr2023@learner.manipal.edu',
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793221/D1_ceshnu.jpg',
         registration:
-            'https://dare2compete.com/p/take-de-bait-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottayam-220531',
+            '/',
         leadLink:"1SZkSgZO9BVO9-rMkURy4T-f37GsdB-SPJRN_iw_ZKMM",    
     },
     {
@@ -142,19 +142,19 @@ const events = [
         organisers: [
             {
                 key: '1',
-                name: 'Swani',
-                email: 'swani2019@\u200Biiitkottayam.ac.in',
+                name: 'Panchadip',
+                email: 'panchadip125@gmail.com',
             },
             {
                 key: '2',
-                name: 'Prajjawal',
-                email: 'techclub@\u200Biiitkottayam.ac.in',
+                name: 'Prajwal',
+                email: 'panchadip125@gmail.com',
                 phoneNumber: '(+91) 9370324791',
             },
         ],
         poster: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1633950066/BrandAID_flot8z.png',
         registration:
-            'https://dare2compete.com/p/brand-aid-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottayam-223776?lb=iUGWfEQ',
+            '/', 
         leadLink:"19YaOkzhCQiyUHg1pvAXeNPLVNGhNTSP4vIchESMBBAE",    
     },
     {
@@ -164,13 +164,13 @@ const events = [
         tag: 'Elon can do it, you musk too.',
         description:
             ' How accurately can you predict the troughs and crests of crypto stocks? \n\nTest your knowledge in this 3-day long mock investment contest. The rules are simple, the one with the most profit wins.',
-        date: '28th October',
+        date: '28th January 2025',
         time: '7:30pm ',
         organisers: [
             {
                 key: '1',
-                name: 'Hrishabh Joshi',
-                email: 'harishabh2019@\u200Biiitkottayam.ac.in',
+                name: 'Prajwal Pandey',
+                email: 'prajwal@manipal.edu',
                 phoneNumber: '(+91) 9599928563',
             },
         ],
@@ -185,18 +185,18 @@ const events = [
         tag: 'From Retro to Life',
         description:
             "Consider yourself a pro gamer that likes to dabble in its making as well? Got some mad game development skills that you can't wait to exhibit? \n Well, Retroopolis is just the event for you! Build your own virtual world; \n Your World, Your Rules!",
-        date: '29th October',
+        date: '27th January 2025',
         time: '9:00am',
         organisers: [
             {
                 key: '1',
-                name: 'Sai Tejashwin',
-                email: 'tejashwin2019@\u200Biiitkottayam.ac.in',
+                name: 'Panchadip Bhattacharjee',
+                email: 'panchadip125@gmail.com',
                 phoneNumber: '(+91) 8688179209',
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793272/GameDev_z8he5g.png',
-        registration: 'https://dare2compete.com/o/9dTxDwP?lb=MlXGSqt',
+        registration: '/',
         leadLink:"1OzpHafZbyBR4HhL0AFzZCxE9wLFvQt5KVvifp2PrxIE",    
     },
     {
@@ -206,19 +206,19 @@ const events = [
         tag: 'Be the next Hardy Boys!',
         description:
             "Do you have what it takes to be the next Hardy Boys?\n \nAn expedition that would give you an adrenaline rush like never before! Be the first team to solve mind-bending puzzles that's certain to exercise your grey matter and keep you on your toes.",
-        date: '31st October',
+        date: '26th January 2025',
         time: '7:00pm - 9:00pm',
         organisers: [
             {
                 key: '1',
-                name: 'Nikhil Menon',
-                email: 'nikhilmenon20bcs16@\u200Biiitkottayam.ac.in ',
+                name: 'Panchadip',
+                email: 'panchadip125@gmail.com ',
                 phoneNumber: '(+91) 7259395776',
             },
             {
                 key: '2',
-                name: 'Gouri Nair',
-                email: 'gourinair20bec7@\u200Biiitkottayam.ac.in',
+                name: 'Panchadip Bhattacharjee',
+                email: 'panchadip128@gmail.com',
                 phoneNumber: '(+91) 08606922585',
             },
         ],
@@ -234,20 +234,20 @@ const events = [
         tag: 'Who wants to code straight?',
         description:
             'To find order in chaos, is what life is all about. \n \nGiven a black box with certain inputs and their respective outputs, your task is to find how the black box works, and code.',
-        date: '31st October',
+        date: '27th January 2025',
         time: '2:30pm - 4:30pm',
         organisers: [
             {
                 key: '1',
-                name: 'Nikhil Menon',
-                email: 'nikhilmenon20bcs16@\u200Biiitkottayam.ac.in ',
+                name: 'Panchadip Bhattacharjee',
+                email: 'panchadip125@gmail.com ',
                 phoneNumber: '(+91) 7259395776',
             },
         ],
 
-        poster: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634185036/final_b5pikj.png',
+        poster: '/',
         registration:
-            'https://docs.google.com/forms/d/e/1FAIpQLSczXunkRyZVz5cLsBaD3EgeF3_XfIbUnbi8cGkzJCt0JQcryg/viewform?usp=sf_link',
+            '/',
         leadLink:"1uFa0WOGnbz8Fa4q0Jx2knUplL5nbiGHJAOJNhHF5HQA",        
     },
     {
@@ -257,46 +257,46 @@ const events = [
         tag: 'Clear the Pitch',
         description:
             'A wacky pitching competition that you would never see happening in a boardroom!\n \nUse the best of your wits to smooth-talk, persuade and entice us into buying bizarre and ridiculous ideas that would defy any rationale.',
-        date: '29th October',
+        date: '27th January 2025',
         time: '1:00pm - 3:00pm',
         organisers: [
             {
                 key: '1',
-                name: 'Adithyadev Mattada',
-                email: 'adithyadevm20bec23@\u200Biiitkottayam.ac.in',
+                name: 'Panchadip',
+                email: 'panchadip128@gmail.com',
                 phoneNumber: '(+91) 7559888295',
             },
             {
                 key: '2',
-                name: 'Fathima Hanan Parakkot',
-                email: 'fathima20bec22@\u200Biiitkottayam.ac.in',
+                name: 'Pritam Paul',
+                email: 'pritam_paul@manipal.edu',
                 phoneNumber: '(+91) 8139888072',
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793227/SoldIT_bkhole.png',
         registration:
-            'https://dare2compete.com/creative-cultural-event/sold-it-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-i-222188',
+            '/',
         leadLink:"1C5UPwUzXGkWk33NaKwB1QDXURhK98zN1tlpLDiGNMWQ",        
     },
     {
         id: 1,
         link: 'rebibe-me-jett',
-        name: 'Inter IIIT Valorant Tournament',
+        name: 'Inter MAHE Tech Trivia Tournament',
         tag: 'Rebibe Me Jett',
         description:
-            'An exhilarating Valorant Tournament, with live commentary, a Huge Prize Pool, cool T-Shirts (real skins are important too), and an Adrenaline rush that you cannot afford to miss',
-        date: 'Every Dhruva-day',
+            'An exhilarating Quiz Tournament, with live rewards, a Huge Prize Pool, cool NEURA T-Shirts, and an knowledgious adrenaline rush that you cannot afford to miss',
+        date: 'Neura AI 3rd Event day',
         time: '9:30pm',
         organisers: [
             {
                 key: '1',
-                name: 'Lakshin Kumar R',
-                email: 'lakshin2019@\u200Biiitkottayam.ac.in',
+                name: 'Panchadip ',
+                email: 'panchadip125@gmail.com',
                 phoneNumber: '(+91) 9080385059',
             },
         ],
         poster: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634976697/VALORANT_1_tblk1r.jpg',
-        registration: 'https://dare2compete.com/o/LGU3S20?lb=XJGcpbQ',
+        registration: '/',
         leadLink:"1JKhyzO4i2Y0qScSVORNXUyLWmAM1eqVXeeJOdvpzp00",    
     },
     {
@@ -306,18 +306,18 @@ const events = [
         tag: 'Sticker Making Competition brought to you by RAAHEE',
         description:
             'The most important part of any tech event often culminates in the form of stickers that we put on our laptops. In fact, the level of your activity during your engineering days is defined by how much your laptop’s back is not visible due to stickers covering a major part of it.\n \nThis Dhruva, you have a chance to design your own stickers, and if you are good at it, also get rewarded for it.',
-        date: '28th October - 31st October',
+        date: '28th January 2025 - 31st January 2025',
         time: '28th 6:00pm - 31st 11:59pm',
         organisers: [
             {
                 key: '1',
                 name: 'Priyanshu',
-                email: 'techclub@\u200Biiitkottayam.ac.in',
+                email: 'neura_ai@manipal.edu',
                 phoneNumber: '(+91) 8407016547',
             },
         ],
         poster: 'https://res.cloudinary.com/roshin/image/upload/v1635413455/sticktoit_s4kpmz.jpg',
-        registration: 'https://dare2compete.com/o/qNbGFSA?lb=osb1xnJ',
+        registration: '/',
         leadLink:"1uwZai7okPro6HhWcMn09fOQZ1_RHDc1capUfdQZ8iWs",
     },
 ]

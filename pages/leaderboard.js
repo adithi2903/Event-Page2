@@ -14,7 +14,7 @@ const leaderboard = () => {
                 <title>NEURA AI | Leaderboard</title>
                 <meta
                     name="description"
-                    content="Dhruva IIITK Technical Fest"
+                    content="Neura AI Flagship Tech Event"
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>

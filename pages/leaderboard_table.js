@@ -8,10 +8,10 @@ const leaderboard_table = () => {
     return (
         <>
             <Head>
-                <title>DHRUVA - IIITK | Leaderboard </title>
+                <title>NEURA AI </title>
                 <meta
                     name="description"
-                    content="Dhruva IIITK Technical Fest"
+                    content="Neura AI Flagship Tech Event"
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>

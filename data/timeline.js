@@ -32,7 +32,7 @@ const event = [
     },
     {
         day: 1,
-        name: 'Inter IIIT Valorant Tournament',
+        name: 'Inter MAHE Hackathon Contest',
         time: '10:30 PM - 12:30 AM',
         link: 'rebibe-me-jett',
     },
@@ -71,7 +71,7 @@ const event = [
     },
     {
         day: 2,
-        name: 'Inter IIIT Valorant Tournament',
+        name: 'Trivia Tech Quiz',
         time: '9:30 PM - 12:30 AM',
         link: 'rebibe-me-jett',
     },
@@ -104,7 +104,7 @@ const event = [
     },
     {
         day: 3,
-        name: 'Inter IIIT Valorant Tournament',
+        name: 'AI Poster Presentation Contest',
         time: '9:30 PM - 12:30 AM',
         link: 'rebibe-me-jett',
     },
@@ -149,7 +149,7 @@ const event = [
     },
     {
         day: 4,
-        name: 'Inter IIIT Valorant Tournament',
+        name: 'AI Poster Presentation Contest',
         time: '9:30 PM - 12:30 AM',
         link: 'rebibe-me-jett',
     },

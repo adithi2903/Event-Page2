@@ -55,7 +55,7 @@ export default function Home(props) {
                         name="description"
                         content="NEURA AI"
                     />
-                    <link rel="icon" href="/favicon.ico" />
+                    <link rel="icon" href="/NEURA_AI.png" />
                 </Head>
                 <Navbar />
                 <EventHeading

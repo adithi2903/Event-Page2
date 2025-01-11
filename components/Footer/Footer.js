@@ -33,7 +33,7 @@ const Footer = () => {
                         </li>
                         <li>
                             <Link
-                                href="https://www.facebook.com/Dhruva-IIITK-100145739097786"
+                                href="/"
                                 passHref={true}
                             >
                                 <a target="_blank">
@@ -43,7 +43,7 @@ const Footer = () => {
                         </li>
                         <li>
                             <Link
-                                href="https://www.instagram.com/dhruva_iiitk/"
+                                href="/"
                                 passHref={true}
                             >
                                 <a target="_blank">
@@ -53,7 +53,7 @@ const Footer = () => {
                         </li>
                         <li>
                             <Link
-                                href="https://twitter.com/Dhruva_IIITK"
+                                href="/"
                                 passHref={true}
                             >
                                 <a target="_blank">
@@ -63,7 +63,7 @@ const Footer = () => {
                         </li>
                         <li>
                             <Link
-                                href="https://discord.com/channels/@me"
+                                href="/"
                                 passHref={true}
                             >
                                 <a target="_blank">
@@ -73,7 +73,7 @@ const Footer = () => {
                         </li>
                         <li>
                             <Link
-                                href="https://www.youtube.com/channel/UCgEeC4C9ilVYTgBFlwofjUA"
+                                href="/"
                                 passHref={true}
                             >
                                 <a target="_blank">
@@ -83,7 +83,7 @@ const Footer = () => {
                         </li>
                         <li>
                             <Link
-                                href="https://www.twitch.tv/dhruva_iiitk"
+                                href="/"
                                 passHref={true}
                             >
                                 <a target="_blank">

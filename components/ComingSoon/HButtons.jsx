@@ -1,18 +1,18 @@
 import styles from '/styles/HButton.module.css'
 import Link from 'next/link'
-import { SiDiscord } from 'react-icons/si'
+import { FaWhatsapp } from 'react-icons/fa'
 
 const HButtons = () => {
     return (
         <div className={styles.buttons}>
-            <Link href="/events">
+            <Link href="/events" passHref>
                     <button className={styles.b1}>Register</button>
             </Link>
             <button className={styles.b2}>
-                <Link href="https://discord.gg/pyVrmC4DTk" target="_blank">
+                <Link href="/" target="_blank">
                     <a target="_blank">
-                        <SiDiscord className={styles.faicon} />
-                        <span> Join Discord </span>
+                        <FaWhatsapp className={styles.faicon} />
+                        <span> Join Community </span>
                     </a>
                 </Link>
             </button>

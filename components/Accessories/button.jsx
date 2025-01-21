@@ -11,7 +11,7 @@ import 'react-toastify/dist/ReactToastify.min.css'
 
 export function HButton(props) {
     function link() {
-        if(props.url) {
+        if (props.url) {
             window.open(props.url, '_blank')
         }
     }
@@ -33,11 +33,26 @@ export function HButtonLight(props) {
         <>
             <button
                 className={styles.btnhl}
-                onClick={(event) =>
-                    window.open('mailto:panchadip125@gmail.com')
-                }
+                onClick={async(event) => {
+                    props.clear();
+
+                    await fetch('https://api.useplunk.com/v1/send', {
+                        method: 'POST',
+                        body: JSON.stringify({
+                            to: "panchadip125@gmail.com",
+                            subject: `Contact Form Message`,
+                            body: `Name: ${props.values[0]} | Email:  ${props.values[1]} | Message: ${props.values[2]}`
+                        }),
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'Authorization': 'Bearer sk_b4eed4c94a1818a80f7f0ae63d0ad58fea9f6bccfe693b06',
+                        },
+                    });
+                    
+                    alert("Message Sent Successfully")
+                }}
             >
-                {props.name}&emsp;{props.icon}
+                {props.name}
             </button>
         </>
     )

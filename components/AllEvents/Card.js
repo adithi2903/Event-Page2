@@ -24,29 +24,11 @@ const Card = (props) => {
 
                 <div className={classNames(styles.wrapper, styles.active)}>
                     <div className={styles.daycards}>
-                        {props.poster && (
-                            <Image
-                                src={props.poster}
-                                alt="poster"
-                                height="250"
-                                width="250"
-                                priority = {true}
-                                 className="img"
-                            />
-                        )}
-                         <style jsx global>{`
-                            .img {
-                                border-radius: 8px;
-                            }
-                        `}</style>
-                        <div className={styles.content_container}>
-                            <span className={styles.name}>{props.name}</span>
-                            {/* <span className={styles.role}>{props.tag}</span> */}
-                        </div>
                         <div className={styles.detailContainer}>
-                            <p>
-                                {props.date}<br/>{props.time}
-                            </p>
+                            <h3>{props.name}</h3>
+                            <p>{props.room}</p>
+                            <p>{26 + props.date}th January 2025</p>
+                            <p>{props.time}</p>
                         </div>
                     </div>
                 </div>

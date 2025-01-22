@@ -17,9 +17,6 @@ export const Sponsors = (props) => {
             <h2 className={styleP.prizeH2Stroke}>Prizes</h2>
             <h3 className={styleP.prizeH3}>Total prize of</h3>
             <h2 className={styleP.prizeH2}>Rs. {prizeMoney}</h2>
-            <h3 className={styleP.prizeH3}>
-                Also win exciting prizes&nbsp;from
-            </h3>
             {/* <PrizesRow prizes={prizes} /> */}
             {/* Uncomment the line above to bring back Prizes */}
 

@@ -9,6 +9,7 @@ export default function Ecard(props) {
                 <div className={styles.eventcard}>
                     <h2 className={styles.eventname}>{props.name}</h2>
                     <p className={styles.eventtime}>{props.time}</p>
+                    <p className={styles.eventtime}>{props.room}</p>
                 </div>
             </a>
         ) : (
@@ -16,14 +17,16 @@ export default function Ecard(props) {
                 <div className={styles.eventcard}>
                     <h2 className={styles.eventname}>{props.name}</h2>
                     <p className={styles.eventtime}>{props.time}</p>
-                </div>
+                    <p className={styles.eventtime}>{props.room}</p>
+                    </div>
             </Link>
         )
         ) : (
             <div className={styles.eventcard}>
                 <h2 className={styles.eventname}>{props.name}</h2>
                 <p className={styles.eventtime}>{props.time}</p>
-            </div>
+                <p className={styles.eventtime}>{props.room}</p>
+                </div>
         )}
         {/* <Link href={'/event/' + props.link} passHref>
             <div className={styles.eventcard}>

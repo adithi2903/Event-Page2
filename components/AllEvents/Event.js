@@ -4,7 +4,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
 
-import { events } from '@data/events'
+import { event } from '@data/timeline'
 export const Event = () => {
     useEffect(() => {
         AOS.init({
@@ -15,16 +15,13 @@ export const Event = () => {
         <div className={styles.team_container}>
             <h1 style={{}}>Events</h1>
             <div className={styles.cards}>
-                {events.map((data) => (
+                {event.map((data, index) => (
                     <Card
-                        key={data.id}
-                        id={data.id}
+                        key={index}
                         name={data.name}
-                        poster={data.poster}
-                        date={data.date}
                         time={data.time}
-                        tag={data.tag}
-                        link={data.link}
+                        room={data.room}
+                        date={data.day}
                     />
                 ))}
             </div>

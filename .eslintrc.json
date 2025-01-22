@@ -9,5 +9,8 @@
             "jsx": true
         }
     },
+    "rules": {
+        "react/no-unknown-property": ["error", { "ignore": ["jsx", "global"] }]
+      },
     "extends": ["next", "prettier"]
 }

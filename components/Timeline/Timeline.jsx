@@ -95,10 +95,11 @@ export default function Timeline() {
                         !day1 && styles.events2,
                     )}
                 >
-                    {event.map((item) => {
+                    {event.map((item, idx) => {
                         if (item.day === 1) {
                             return (
                                 <Ecard
+                                key={idx}
                                     name={item.name}
                                     time={item.time}
                                     link={item.link}

@@ -74,10 +74,13 @@ const Sponsor_Faq = () => {
                         <div className={Style.chatB}>
                             We are happy to resolve all the doubts, just email
                             us at{' '}
-                            <a href="mailto:panchadip125@gmail.com">
-                                panchadip125@<wbr />gmail.com
+                            <a href="mailto:pranati.tapmiblr2023@learner.manipal.edu">
+                            HR:-pranati.tapmiblr2023@<wbr />learner.manipal.edu
                             </a>
-                            .
+                            <br />or at{' '}
+                            <a href="mailto:mohammed.hussain1@learner.manipal.edu">
+                            HR:-mohammed.hussain1@<wbr />learner.manipal.edu
+                            </a>
                         </div>
 
                     </div>

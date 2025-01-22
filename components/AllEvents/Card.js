@@ -5,6 +5,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
+import { HButton } from '@components/Accessories/button'
 const Card = (props) => {
     useEffect(() => {
         AOS.init({
@@ -30,6 +31,14 @@ const Card = (props) => {
                             <p>{props.room}</p>
                             <p>{26 + props.date}th January 2025</p>
                             <p>{props.time}</p>
+                            <Link
+                                href='https://forms.office.com/r/ntqmxFYEKJ'
+                                passHref={true}
+                            >
+                                <a target="_blank">
+                                    <div><HButton name='Register'></HButton></div>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

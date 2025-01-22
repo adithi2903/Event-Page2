@@ -30,7 +30,7 @@ const Sponsor_Faq = () => {
                         <HButton
                             name={'Apply'}
                             icon={<ImArrowUpRight2 />}
-                            url={'https://bit.ly/dhruva_sponsor'}
+                            url={'https://forms.office.com/r/ntqmxFYEKJ'}
                         />
                     </div>{' '}
                     {/* Included an additional attribute - icon for the up-left arrow, also made the required change in button.jsx */}

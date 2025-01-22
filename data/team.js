@@ -46,7 +46,7 @@ const dev_res = [
     },
     {
         name: 'Arsh Edke',
-        image: '/team/Arsh_Edke.jpg',
+        image: '/team/Arsh_Edke.png',
         pos:'Web Dev Vice-Head',
         linkedin:"https://www.linkedin.com/in/arsh-kumar-edke-562568291/",
         instagram:"https://www.instagram.com/saaheerpurav/",
@@ -84,7 +84,7 @@ const events = [
     },
     {
         name: 'Palak Bhardwaj',
-        image: '/team/Palak_Bhardwaj.jpg',
+        image: '/team/Palak_Bhardwaj.jpeg',
         pos:'Events and Ops Vice-Head',
         linkedin:"",
         instagram:"",
@@ -112,7 +112,7 @@ const events = [
     },
     {
         name: 'Ayush Kumar Singh',
-        image: '/team/Ayush_Kumar_Singh.jpg',
+        image: '/team/Ayush_Kumar_Singh.png',
         pos:'HR Vice-Head',
         linkedin:"",
         instagram:"https://www.instagram.com/ayushhhks/",
@@ -126,7 +126,7 @@ const events = [
     },
     {
         name: 'Sheekar Reddy Pindi',
-        image: '/team/Sreekar_Reddy_Pindi.jpg',
+        image: '/team/Sreekar_Reddy_Pindi.jpeg',
         pos:'Photography Vice-Head',
         linkedin:"",
         instagram:"https://www.instagram.com/sreekar_reddy28/",
@@ -160,7 +160,7 @@ const ambassadors = [
 const media = [
     {
         name: 'Manasvi M /',
-        image: '/team/Manasvi_M.jpg',
+        image: '/team/Manasvi_M.png',
         pos:'Marketing Head',
         linkedin:"",
         instagram:"https://www.instagram.com/manaxx_7/",
@@ -174,7 +174,7 @@ const media = [
     },
     {
         name: 'Jacqueline Lynda Leona',
-        image: '/team/Jacqueline_Lynda_Leona.jpg',
+        image: '/team/Jacqueline_Lynda_Leona.jpeg',
         pos:'Social Media Head',
         linkedin:"",
         instagram:"https://www.instagram.com/_jacquelineleonard/",
@@ -188,7 +188,7 @@ const media = [
     },
     {
         name: 'Kartik Ganesh /',
-        image: '/team/Kartik_Ganesh.jpg',
+        image: '/team/Kartik_Ganesh.png',
         pos:'Graphic Designer',
         linkedin:"",
         instagram:"https://www.instagram.com/kartik_bharadwaja/",
@@ -206,14 +206,14 @@ const exec = [
     },
     {
         name: 'Sai Mani Karthik Gandla ',
-        image: '/team/Sai_Mani_Karthik_Gandla.jpg',
+        image: '/team/Sai_Mani_Karthik_Gandla.png',
         pos:'',
         linkedin:"",
         instagram:"https://www.instagram.com/saimanikarthikg_13/",
     },
     {
         name: 'Tanay V Gorur',
-        image: '/team/Tanay_V_Gorur.jpg',
+        image: '/team/Tanay Gorur.jpg',
         pos:'',
         linkedin:"",
         instagram:"https://www.instagram.com/xcallibber/",
@@ -231,28 +231,28 @@ const exec = [
 const advisory = [
     {
         name: 'Dr Jyoti Shetty',
-        image: '/team/Dr_Jyoti_Shetty.jpg',
+        image: '/team/Dr_Jyoti_Shetty.png',
         pos:'',
         linkedin:"https://www.linkedin.com/in/dr-jyoti-shetty/",
         instagram:"",
     },
     {
         name: 'Dr T Gopalakrishnan',
-        image: '/team/Dr_T_Gopalakrishnan.jpg',
+        image: '/team/Dr_T_Gopalakrishnan.png',
         pos:'',
         linkedin:"",
         instagram:"",
     },
     {
         name: 'Md Fazil Hussain',
-        image: '/team/fazil.jpg',
+        image: '/team/fazil.png',
         pos:'',
         linkedin:"",
         instagram:"https://www.instagram.com/fazilhussain_______offical/",
     },
     {
         name: 'Saurav G Pai',
-        image: '/team/saurav.jpg',
+        image: '/team/saurav.png',
         pos:'',
         linkedin:"",
         instagram:"https://www.instagram.com/sourav.g.pai/",

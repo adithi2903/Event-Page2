@@ -5,7 +5,6 @@ import 'aos/dist/aos.css'
 import { useEffect } from 'react'
 
 import { events } from '@data/events'
-import { getStaticProps } from 'pages/event/[id]'
 export const Event = () => {
     useEffect(() => {
         AOS.init({

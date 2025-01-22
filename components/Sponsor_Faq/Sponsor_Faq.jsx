@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import Style from './FAQ.module.css'
 
 import { HButton, HButtonLight } from '@components/Accessories/button'
@@ -5,6 +6,9 @@ import { ImArrowUpRight2 } from 'react-icons/im'
 
 
 const Sponsor_Faq = () => {
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [msg, setMsg] = useState("");
 
     return (
         <div className={Style.wrapper} id='FAQ'>
@@ -39,10 +43,12 @@ const Sponsor_Faq = () => {
                         <p className={Style.subtitle}>
                             Feeling Overwhelmed?<br></br>Reach out to us.
                         </p>
-                        <HButtonLight
-                            name={'Contact Us'}
-                            icon={<ImArrowUpRight2 />}
-                        />
+
+                        <input placeholder="Name" className={Style.input} value={name} onChange={e => setName(e.target.value)} />
+                        <input placeholder="Email" type="email" className={Style.input} value={email} onChange={e => setEmail(e.target.value)} />
+                        <textarea placeholder="Message" className={Style.input} style={{ margin: 0, resize: "none", height: "8em" }} value={msg} onChange={e => setMsg(e.target.value)} />
+
+                        <HButtonLight name={'Contact Us'} values={[name, email, msg]} clear={() => { setName(""); setEmail(""); setMsg(""); }} />
                     </div>
                     <div className={Style.chat}>
                         <div className={Style.chatW}>
@@ -69,7 +75,7 @@ const Sponsor_Faq = () => {
                             We are happy to resolve all the doubts, just email
                             us at{' '}
                             <a href="mailto:panchadip125@gmail.com">
-                                panchadip125@<wbr/>gmail.com
+                                panchadip125@<wbr />gmail.com
                             </a>
                             .
                         </div>

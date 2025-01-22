@@ -79,7 +79,7 @@ const Sponsor_Faq = () => {
                             </a>
                             <br />or at{' '}
                             <a href="mailto:mohammed.hussain1@learner.manipal.edu">
-                            HR:-mohammed.hussain1@<wbr />learner.manipal.edu
+                            mohammed.hussain1@<wbr />learner.manipal.edu
                             </a>
                         </div>
 

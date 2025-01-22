@@ -130,6 +130,7 @@
 /* Events card style */
 .detailContainer {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     width: 100%;

@@ -93,7 +93,7 @@ const RightNav = ({ open, setOpen }) => {
                 </li>
                 <li onClick={toggle}>
                     <Link href="/#Sponsors" passHref>
-                        Sponsors
+                        Prizes
                     </Link>
                 </li>
                 <li onClick={toggle}>

@@ -7,60 +7,16 @@ import Ecard from '@components/Accessories/ecard'
 import { event } from '@data/timeline'
 
 export default function Timeline() {
-    const [day1, setday1] = useState(false)
-    const [day2, setday2] = useState(false)
-    const [day3, setday3] = useState(false)
-    const [day4, setday4] = useState(true)
-    const [day5, setday5] = useState(false)
-    const [day6, setday6] = useState(false)
+    const [day1, setday1] = useState(true);
+    const [day2, setday2] = useState(false);
 
     const handleday1 = () => {
-        setday1(true)
-        setday2(false)
-        setday3(false)
-        setday4(false)
-        setday5(false)
-        setday6(false)
+        setday1(true);
+        setday2(false);
     }
     const handleday2 = () => {
-        setday2(true)
-        setday1(false)
-        setday3(false)
-        setday4(false)
-        setday5(false)
-        setday6(false)
-    }
-    const handleday3 = () => {
-        setday3(true)
-        setday2(false)
-        setday1(false)
-        setday4(false)
-        setday5(false)
-        setday6(false)
-    }
-    const handleday4 = () => {
-        setday4(true)
-        setday3(false)
-        setday2(false)
-        setday1(false)
-        setday5(false)
-        setday6(false)
-    }
-    const handleday5 = () => {
-        setday5(true)
-        setday4(false)
-        setday3(false)
-        setday2(false)
-        setday1(false)
-        setday6(false)
-    }
-    const handleday6 = () => {
-        setday6(true)
-        setday5(false)
-        setday4(false)
-        setday3(false)
-        setday2(false)
-        setday1(false)
+        setday2(true);
+        setday1(false);
     }
 
     return (
@@ -76,18 +32,6 @@ export default function Timeline() {
                     <div onClick={handleday2}>
                         <Dcard name="Day 2" day={day2} />
                     </div>
-                    <div onClick={handleday3}>
-                        <Dcard name="Day 3" day={day3} />
-                    </div>
-                    <div onClick={handleday4}>
-                        <Dcard name="Day 4" day={day4} />
-                    </div>
-                    <div onClick={handleday5}>
-                        <Dcard name="Day 5" day={day5} />
-                    </div>
-                    <div onClick={handleday6}>
-                        <Dcard name="Day 6" day={day6} />
-                    </div>
                 </div>
                 <div
                     className={classNames(
@@ -99,15 +43,16 @@ export default function Timeline() {
                         if (item.day === 1) {
                             return (
                                 <Ecard
-                                key={idx}
+                                    key={idx}
                                     name={item.name}
                                     time={item.time}
-                                    link={item.link}
+                                    room={item.room}
                                 />
                             )
                         }
                     })}
                 </div>
+                
                 <div
                     className={classNames(
                         styles.events,
@@ -120,85 +65,14 @@ export default function Timeline() {
                                 <Ecard key={index}
                                     name={item.name}
                                     time={item.time}
-                                    link={item.link}
-                                />
-                            )
-                        }
-                    })}
-                </div>
-                <div
-                    className={classNames(
-                        styles.events,
-                        !day3 && styles.events2,
-                    )}
-                >
-                    {event.map((item, index) => {
-                        if (item.day === 3) {
-                            return (
-                                <Ecard key={index}
-                                    name={item.name}
-                                    time={item.time}
-                                    link={item.link}
-                                />
-                            )
-                        }
-                    })}
-                </div>
-                <div
-                    className={classNames(
-                        styles.events,
-                        !day4 && styles.events2,
-                    )}
-                >
-                    {event.map((item, index) => {
-                        if (item.day === 4) {
-                            return (
-                                <Ecard key={index}
-                                    name={item.name}
-                                    time={item.time}
-                                    link={item.link}
-                                />
-                            )
-                        }
-                    })}
-                </div>
-                <div
-                    className={classNames(
-                        styles.events,
-                        !day5 && styles.events2,
-                    )}
-                >
-                    {event.map((item, index) => {
-                        if (item.day === 5) {
-                            return (
-                                <Ecard key={index}
-                                    name={item.name}
-                                    time={item.time}
-                                    link={item.link}
-                                />
-                            )
-                        }
-                    })}
-                </div>
-                <div
-                    className={classNames(
-                        styles.events,
-                        !day6 && styles.events2,
-                    )}
-                >
-                    {event.map((item, index) => {
-                        if (item.day === 6) {
-                            return (
-                                <Ecard key={index}
-                                    name={item.name}
-                                    time={item.time}
-                                    link={item.link}
+                                    room={item.room}
                                 />
                             )
                         }
                     })}
                 </div>
             </div>
+
             <div className={styles.mobile}>
                 <div className={styles.mdays}>
                     <div onClick={handleday1}>
@@ -225,78 +99,6 @@ export default function Timeline() {
                     <div className={styles.events}>
                         {event.map((item, index) => {
                             if (item.day === 2) {
-                                return (
-                                    <Ecard key={index}
-                                        name={item.name}
-                                        time={item.time}
-                                        link={item.link}
-                                    />
-                                )
-                            }
-                        })}
-                    </div>
-                </div>
-                <div className={styles.mdays}>
-                    <div onClick={handleday3}>
-                        <Dcard name="Day 3" day={day3} />
-                    </div>
-                    <div className={styles.events}>
-                        {event.map((item, index) => {
-                            if (item.day === 3) {
-                                return (
-                                    <Ecard key={index}
-                                        name={item.name}
-                                        time={item.time}
-                                        link={item.link}
-                                    />
-                                )
-                            }
-                        })}
-                    </div>
-                </div>
-                <div className={styles.mdays}>
-                    <div onClick={handleday4}>
-                        <Dcard name="Day 4" day={day4} />
-                    </div>
-                    <div className={styles.events}>
-                        {event.map((item, index) => {
-                            if (item.day === 4) {
-                                return (
-                                    <Ecard key={index}
-                                        name={item.name}
-                                        time={item.time}
-                                        link={item.link}
-                                    />
-                                )
-                            }
-                        })}
-                    </div>
-                </div>
-                <div className={styles.mdays}>
-                    <div onClick={handleday5}>
-                        <Dcard name="Day 5" day={day5} />
-                    </div>
-                    <div className={styles.events}>
-                        {event.map((item, index) => {
-                            if (item.day === 5) {
-                                return (
-                                    <Ecard key={index}
-                                        name={item.name}
-                                        time={item.time}
-                                        link={item.link}
-                                    />
-                                )
-                            }
-                        })}
-                    </div>
-                </div>
-                <div className={styles.mdays}>
-                    <div onClick={handleday6}>
-                        <Dcard name="Day 6" day={day6} />
-                    </div>
-                    <div className={styles.events}>
-                        {event.map((item, index) => {
-                            if (item.day === 6) {
                                 return (
                                     <Ecard key={index}
                                         name={item.name}

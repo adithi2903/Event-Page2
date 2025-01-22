@@ -13,7 +13,6 @@
     "aos": "^2.3.4",
     "bootstrap": "^5.3.3",
     "cors": "^2.8.5",
-    "iframe-resizer-react": "^1.1.0",
     "moment": "^2.29.1",
     "next": "^11.1.2",
     "react": "^17.0.2",

@@ -114,10 +114,10 @@ export default function Timeline() {
                         !day2 && styles.events2,
                     )}
                 >
-                    {event.map((item) => {
+                    {event.map((item, index) => {
                         if (item.day === 2) {
                             return (
-                                <Ecard
+                                <Ecard key={index}
                                     name={item.name}
                                     time={item.time}
                                     link={item.link}
@@ -132,10 +132,10 @@ export default function Timeline() {
                         !day3 && styles.events2,
                     )}
                 >
-                    {event.map((item) => {
+                    {event.map((item, index) => {
                         if (item.day === 3) {
                             return (
-                                <Ecard
+                                <Ecard key={index}
                                     name={item.name}
                                     time={item.time}
                                     link={item.link}
@@ -150,10 +150,10 @@ export default function Timeline() {
                         !day4 && styles.events2,
                     )}
                 >
-                    {event.map((item) => {
+                    {event.map((item, index) => {
                         if (item.day === 4) {
                             return (
-                                <Ecard
+                                <Ecard key={index}
                                     name={item.name}
                                     time={item.time}
                                     link={item.link}
@@ -168,10 +168,10 @@ export default function Timeline() {
                         !day5 && styles.events2,
                     )}
                 >
-                    {event.map((item) => {
+                    {event.map((item, index) => {
                         if (item.day === 5) {
                             return (
-                                <Ecard
+                                <Ecard key={index}
                                     name={item.name}
                                     time={item.time}
                                     link={item.link}
@@ -186,10 +186,10 @@ export default function Timeline() {
                         !day6 && styles.events2,
                     )}
                 >
-                    {event.map((item) => {
+                    {event.map((item, index) => {
                         if (item.day === 6) {
                             return (
-                                <Ecard
+                                <Ecard key={index}
                                     name={item.name}
                                     time={item.time}
                                     link={item.link}
@@ -205,10 +205,10 @@ export default function Timeline() {
                         <Dcard name="Day 1" day={day1} />
                     </div>
                     <div className={styles.events}>
-                        {event.map((item) => {
+                        {event.map((item, index) => {
                             if (item.day === 1) {
                                 return (
-                                    <Ecard
+                                    <Ecard key={index}
                                         name={item.name}
                                         time={item.time}
                                         link={item.link}
@@ -223,10 +223,10 @@ export default function Timeline() {
                         <Dcard name="Day 2" day={day2} />
                     </div>
                     <div className={styles.events}>
-                        {event.map((item) => {
+                        {event.map((item, index) => {
                             if (item.day === 2) {
                                 return (
-                                    <Ecard
+                                    <Ecard key={index}
                                         name={item.name}
                                         time={item.time}
                                         link={item.link}
@@ -241,10 +241,10 @@ export default function Timeline() {
                         <Dcard name="Day 3" day={day3} />
                     </div>
                     <div className={styles.events}>
-                        {event.map((item) => {
+                        {event.map((item, index) => {
                             if (item.day === 3) {
                                 return (
-                                    <Ecard
+                                    <Ecard key={index}
                                         name={item.name}
                                         time={item.time}
                                         link={item.link}
@@ -259,10 +259,10 @@ export default function Timeline() {
                         <Dcard name="Day 4" day={day4} />
                     </div>
                     <div className={styles.events}>
-                        {event.map((item) => {
+                        {event.map((item, index) => {
                             if (item.day === 4) {
                                 return (
-                                    <Ecard
+                                    <Ecard key={index}
                                         name={item.name}
                                         time={item.time}
                                         link={item.link}
@@ -277,10 +277,10 @@ export default function Timeline() {
                         <Dcard name="Day 5" day={day5} />
                     </div>
                     <div className={styles.events}>
-                        {event.map((item) => {
+                        {event.map((item, index) => {
                             if (item.day === 5) {
                                 return (
-                                    <Ecard
+                                    <Ecard key={index}
                                         name={item.name}
                                         time={item.time}
                                         link={item.link}
@@ -295,10 +295,10 @@ export default function Timeline() {
                         <Dcard name="Day 6" day={day6} />
                     </div>
                     <div className={styles.events}>
-                        {event.map((item) => {
+                        {event.map((item, index) => {
                             if (item.day === 6) {
                                 return (
-                                    <Ecard
+                                    <Ecard key={index}
                                         name={item.name}
                                         time={item.time}
                                         link={item.link}

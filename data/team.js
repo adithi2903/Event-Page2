@@ -18,7 +18,7 @@ const executive = [
         image: '/team/Karthikeya_Koganti.jpg',
         pos:'Vice Chair',
         linkedin:"https://www.linkedin.com/in/karthikeya-chowdary-46a2681a7/",
-        instagram:"https://www.instagram.com/its_panchadip/",
+        instagram:"https://www.instagram.com/_.karthikeya._05/",
     },
     {
         name: 'Sashi Pritam',
@@ -49,7 +49,7 @@ const dev_res = [
         image: '/team/Arsh_Edke.png',
         pos:'Web Dev Vice-Head',
         linkedin:"https://www.linkedin.com/in/arsh-kumar-edke-562568291/",
-        instagram:"https://www.instagram.com/saaheerpurav/",
+        instagram:"https://www.instagram.com/arsh_edke21/",
     },
     {
         name: 'Aarya Shah',
@@ -69,7 +69,7 @@ const dev_res = [
         name: 'Sai Sri Ram Reddy',
         image: '/team/Sai_Sri_Ram_Reddy.jpg',
         pos:'AI And ML Head',
-        linkedin:"",
+        linkedin:"https://www.linkedin.com/in/saisriramreddyk/",
         instagram:"https://www.instagram.com/saisriramreddyk?igsh=Y2RhNDZlaGtxa3p3",
     }
 ]
@@ -93,7 +93,7 @@ const events = [
         name: 'Roshan Ravi Kiran',
         image: '/team/Roshan_Ravi_Kiran.jpg',
         pos:'Logistics Head',
-        linkedin:"",
+        linkedin:"https://www.linkedin.com/in/roshan-ravi-kiran/",
         instagram:"https://www.instagram.com/rr_roshan311?igsh=NHZodTZpNzdnNmlw",
     },
     {

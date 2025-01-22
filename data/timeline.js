@@ -25,7 +25,7 @@ const event = [
     {
         day: 1,
         name: 'Trivia Quiz (General)',
-        time: '2:30 PM - 4:30 PM',
+        time: '3:00 PM - 4:30 PM',
         room: "Auditorium AB5",
         poster: "https://res.cloudinary.com/dxb5lx3gk/image/upload/v1737546644/Trivia_Quiz_dvydiy.png"
         
@@ -33,7 +33,7 @@ const event = [
     {
         day: 1,
         name: 'Treasure Hunt',
-        time: '5:30 PM - 7:00 PM',
+        time: '5:00 PM - 7:00 PM',
         room: "No specific room",
         poster: "https://res.cloudinary.com/dxb5lx3gk/image/upload/v1737546646/TreasureHunt_pnypni.png"
     },
@@ -50,7 +50,7 @@ const event = [
     {
         day: 2,
         name: 'GUEST Talk',
-        time: '10:00 AM - 11:30 AM',
+        time: '9:30 AM - 11:00 AM',
         room: "AB5 108",
         poster: "https://res.cloudinary.com/dxb5lx3gk/image/upload/v1737546644/GuestTalk_mojpvv.png"
     },

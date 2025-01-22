@@ -5,6 +5,7 @@ import {
     FaEnvelope,
     FaTwitch,
     FaYoutube,
+    FaLinkedinIn
 } from 'react-icons/fa'
 import { SiDiscord } from 'react-icons/si'
 import styles from './Footer.module.css'
@@ -25,7 +26,7 @@ const Footer = () => {
                     <ul>
                         <li>
                             <Link
-                                href="mailto:panchadip125@gmail.com"
+                                href="/"
                                 passHref={true}
                             >
                                 <FaEnvelope />
@@ -33,17 +34,17 @@ const Footer = () => {
                         </li>
                         <li>
                             <Link
-                                href="/"
+                                href="https://www.linkedin.com/company/mboscmitblr"
                                 passHref={true}
                             >
                                 <a target="_blank">
-                                    <FaFacebookSquare />
+                                    <FaLinkedinIn />
                                 </a>
                             </Link>
                         </li>
                         <li>
                             <Link
-                                href="/"
+                                href="https://www.instagram.com/manipalosc?utm_source=qr&r=nametag"
                                 passHref={true}
                             >
                                 <a target="_blank">

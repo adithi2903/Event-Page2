@@ -13,7 +13,7 @@ const team = () => {
                     name="description"
                     content="MBOSC- MIT BLR FLAGSHIP EVENT"
                 />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/png/MBOSC_2.png" />
             </Head>
             <div className={styles.container}>
                 <Navbar />

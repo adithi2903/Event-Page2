@@ -5,7 +5,7 @@ import { FaWhatsapp } from 'react-icons/fa'
 const HButtons = () => {
     return (
         <div className={styles.buttons}>
-            <Link href="https://docs.google.com/forms/d/1kPIptXunTYBykR6xTYSxoSdoX0Vg1unL8JVCqkJ56tA/" passHref>
+            <Link href="/events" passHref>
                     <button className={styles.b1}>Register</button>
             </Link>
             <button className={styles.b2}>

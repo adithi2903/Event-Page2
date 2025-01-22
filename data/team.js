@@ -187,7 +187,7 @@ const media = [
         instagram:"",
     },
     {
-        name: 'Kartik Ganesh /',
+        name: 'Kartik Ganesh ',
         image: '/team/Kartik_Ganesh.png',
         pos:'Graphic Designer',
         linkedin:"",

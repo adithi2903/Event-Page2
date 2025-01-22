@@ -7,6 +7,7 @@ import 'aos/dist/aos.css'
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
 
+
 const Card = (props) => {
     useEffect(() => {
         AOS.init({
@@ -39,6 +40,32 @@ const Card = (props) => {
                         <span className={styles.name}>{props.name}</span>
                     </div>
 
+                    <div style={{ marginTop: '10px' }}>
+                        <div>{props.pos}</div>
+                    </div>
+                    
+                    <div style={{ marginTop: '10px' }}>
+                        <span style={{ marginRight: '30px' }}>
+                            <Link
+                                href={props.instagram}
+                                passHref={true}
+                            >
+                                <a target="_blank">
+                                    <FaInstagram />
+                                </a>
+                            </Link>
+                        </span> 
+                        <span style={{ marginRight: '0px' }}>
+                            <Link
+                                href={props.linkedin}
+                                passHref={true}
+                            >
+                                <a target="_blank">
+                                    <FaLinkedin />
+                                </a>
+                            </Link>
+                        </span>
+                    </div>
                 </div>
             </div>
         </div>

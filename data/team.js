@@ -59,8 +59,8 @@ const dev_res = [
         instagram:"https://www.instagram.com/aar_ya_alright/",
     },
     {
-        name: 'Sohar',
-        image: '/team/Sohar.jpg',
+        name: 'Sohar Baba',
+        image: '/team/Sohar.JPG',
         pos:'Research And Dev Vice-Head',
         linkedin:"https://www.linkedin.com/in/sohar-baba-2a752122b/",
         instagram:"https://www.instagram.com/i_am_sohar_18_?igsh=ZWF2and6cHpoeHdu",
@@ -119,7 +119,7 @@ const events = [
     },
     {
         name: 'Manoj Kumar Reddy',
-        image: '/team/Manoj_Kumar_Reddy.jpg',
+        image: '/team/Manoj_Kumar_Reddy.JPG',
         pos:'Photography Head',
         linkedin:"",
         instagram:"https://www.instagram.com/manoj_reddy2007/",
@@ -187,7 +187,7 @@ const media = [
         instagram:"",
     },
     {
-        name: 'Kartik Ganesh /',
+        name: 'Kartik Ganesh ',
         image: '/team/Kartik_Ganesh.png',
         pos:'Graphic Designer',
         linkedin:"",

@@ -25,117 +25,41 @@ export const Team = () => {
                 Our <span>Team</span>
             </h1>
             <h2 data-aos="zoom-in" data-aos-duration="1500">
-                Mentors
+                Executive Team
             </h2>
             <div className={styles.mentor}>
-                {mentors.map((data) => (
-                    <Card
-                        key={data.id}
-                        name={data.name}
-                        gif={data.gif}
-                        image={data.image}
-                        linkedin={data.linkedin}
-                        instagram={data.instagram}
-                        twitter={data.twitter}
-                    />
-                ))}
+                {
+                    mentors.map((data) => (
+                        <Card
+                            key={data.id}
+                            name={data.name}
+                            gif={data.gif}
+                            image={data.image}
+                            linkedin={data.linkedin}
+                            instagram={data.instagram}
+                            twitter={data.twitter}
+                        />
+                    ))}
             </div>
+
             <h2 data-aos="zoom-in" data-aos-duration="1500">
-                Developers
+                Ambassadors
             </h2>
-            <div className={styles.cards}>
-                {developers.map((data) => (
-                    <Card
-                        key={data.id}
-                        name={data.name}
-                        gif={data.gif}
-                        image={data.image}
-                        linkedin={data.linkedin}
-                        instagram={data.instagram}
-                        twitter={data.twitter}
-                    />
-                ))}
+            <div className={styles.mentor}>
+                {
+                    mentors.map((data) => (
+                        <Card
+                            key={data.id}
+                            name={data.name}
+                            gif={data.gif}
+                            image={data.image}
+                            linkedin={data.linkedin}
+                            instagram={data.instagram}
+                            twitter={data.twitter}
+                        />
+                    ))}
             </div>
-            <h2 data-aos="zoom-in" data-aos-duration="1500">
-                Event Managers
-            </h2>
-            <div className={styles.cards}>
-            {eventM.map((data) => (
-                    <Card
-                        key={data.id}
-                        name={data.name}
-                        gif={data.gif}
-                        image={data.image}
-                        linkedin={data.linkedin}
-                        instagram={data.instagram}
-                        twitter={data.twitter}
-                    />
-                ))}
-            </div>
-            <h2 data-aos="zoom-in" data-aos-duration="1500">
-                Organisers
-            </h2>
-            <div className={styles.cards}>
-            {organisers.map((data) => (
-                    <Card
-                        key={data.id}
-                        name={data.name}
-                        gif={data.gif}
-                        image={data.image}
-                        linkedin={data.linkedin}
-                        instagram={data.instagram}
-                        twitter={data.twitter}
-                    />
-                ))}
-            </div>
-            <h2 data-aos="zoom-in" data-aos-duration="1500">
-                Design Team
-            </h2>
-            <div className={styles.cards}>
-            {design.map((data) => (
-                    <Card
-                        key={data.id}
-                        name={data.name}
-                        gif={data.gif}
-                        image={data.image}
-                        linkedin={data.linkedin}
-                        instagram={data.instagram}
-                        twitter={data.twitter}
-                    />
-                ))}
-            </div>
-            <h2 data-aos="zoom-in" data-aos-duration="1500">
-                Content Team
-            </h2>
-            <div className={styles.cards}>
-            {content.map((data) => (
-                    <Card
-                        key={data.id}
-                        name={data.name}
-                        gif={data.gif}
-                        image={data.image}
-                        linkedin={data.linkedin}
-                        instagram={data.instagram}
-                        twitter={data.twitter}
-                    />
-                ))}
-            </div>
-            <h2 data-aos="zoom-in" data-aos-duration="1500">
-                Outreach Team
-            </h2>
-            <div className={styles.cards}>
-            {outreach.map((data) => (
-                    <Card
-                        key={data.id}
-                        name={data.name}
-                        gif={data.gif}
-                        image={data.image}
-                        linkedin={data.linkedin}
-                        instagram={data.instagram}
-                        twitter={data.twitter}
-                    />
-                ))}
-            </div>
+
         </div>
     )
 }

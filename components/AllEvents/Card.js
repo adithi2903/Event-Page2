@@ -13,7 +13,7 @@ const Card = (props) => {
     }, [])
 
     return (
-        <Link href={'/event/' + props.link} passHref>
+        <div>
             <div
                 className={styles.borderwrap}
                 data-aos="fade-up"
@@ -51,7 +51,7 @@ const Card = (props) => {
                     </div>
                 </div>
             </div>
-        </Link>
+        </div>
     )
 }
 

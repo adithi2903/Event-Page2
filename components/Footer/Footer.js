@@ -10,10 +10,10 @@ import { SiDiscord } from 'react-icons/si'
 import styles from './Footer.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
-import logo from '../../public/Neura_AI_horizontal.png'
+import logo from '../../public/MBOSC_hor.png'
 const Footer = () => {
     function love() {
-        alert("With ❤️💜💛, We present to you... NEURA AI's Flagship <Event>!")
+        alert("With ❤️💜💛, We present to you... MBOSC's Flagship <Event>!")
     }
     return (
         <div className={styles.footer}>
@@ -95,7 +95,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className={styles.footerLower}>
-                <span onClick={love} className={styles.heart}>Made with ❤️ by NEURA AI </span>
+                <span onClick={love} className={styles.heart}>Made with ❤️ by MBOSC Tech Team </span>
             </div>
         </div>
     )

@@ -43,18 +43,18 @@ export default function Home() {
         <>
             <div className={styles.container} style={{ height: height }}>
                 <Head>
-                    <title>NEURA AI CONCLAVE - MIT BLR</title>
+                    <title>MBOSC CONCLAVE - MIT BLR</title>
                     {/* <meta
                         name="description"
-                        content="NEURA AI - Manipal Institute of Technology- Bengaluru"
+                        content="MBOSC - Manipal Institute of Technology- Bengaluru"
                     />
                     <meta
                         property="og:title"
-                        content="NEURA AI - Manipal Institute of Technology- Bengaluru"
+                        content="MBOSC - Manipal Institute of Technology- Bengaluru"
                     />
                     <meta
                         property="og:description"
-                        content="NEURA AI - Manipal Institute of Technology- Bengaluru"
+                        content="MBOSC - Manipal Institute of Technology- Bengaluru"
                     /> */}
                     <meta
                         property="og:url"

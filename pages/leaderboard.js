@@ -11,7 +11,7 @@ const leaderboard = () => {
         <>
         <div className = {styles.container}>
             <Head>
-                <title>NEURA AI | Leaderboard</title>
+                <title>MBOSC | Leaderboard</title>
                 <meta
                     name="description"
                     content="Neura AI Flagship Tech Event"

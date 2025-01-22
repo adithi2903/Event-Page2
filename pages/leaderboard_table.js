@@ -8,7 +8,7 @@ const leaderboard_table = () => {
     return (
         <>
             <Head>
-                <title>NEURA AI </title>
+                <title>MBOSC </title>
                 <meta
                     name="description"
                     content="Neura AI Flagship Tech Event"

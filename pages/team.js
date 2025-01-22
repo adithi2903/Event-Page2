@@ -8,10 +8,10 @@ const team = () => {
     return (
         <>
             <Head>
-                <title>NEURA AI CONCLAVE TEAM </title>
+                <title>MBOSC CONCLAVE TEAM </title>
                 <meta
                     name="description"
-                    content="NEURA AI- MIT BLR FLAGSHIP EVENT"
+                    content="MBOSC- MIT BLR FLAGSHIP EVENT"
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>

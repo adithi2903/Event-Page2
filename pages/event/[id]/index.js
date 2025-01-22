@@ -50,10 +50,10 @@ export default function Home(props) {
         <>
             <div className={styles.container}>
                 <Head>
-                    <title>NEURA AI - MIT BLR | {props.name} </title>
+                    <title>MBOSC - MIT BLR | {props.name} </title>
                     <meta
                         name="description"
-                        content="NEURA AI"
+                        content="MBOSC"
                     />
                     <link rel="icon" href="/NEURA_AI.png" />
                 </Head>

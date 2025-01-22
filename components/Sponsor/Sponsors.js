@@ -25,38 +25,6 @@ export const Sponsors = (props) => {
 
             {/* After this comment all lines are for the 'Our Sponsors' section,
              puling it's styling from Sponsor.module.css */}
-
-            <div className={styles.sponsorH2Margin}>
-                <h2 className={styles.sponsorH2}>Our Sponsors</h2>
-            </div>
-            {/* Margin below otherwise it becomes congested */}
-            <div className={styles.sponsorMargin}>
-                {/* <SponsorsRow sponsors={sponsors} /> Please remove this line for Sponsor tier system */}
-
-                {/* If you intend to make the sponsors a tier system,
-                please uncomment the below section and remove the SponsorsRow line above. */}
-
-                <div className={styles.backPill}><h3 className={styles.sponsorH3} style={{ color: '#ffaa00' }}>
-                    Gold Tier
-                </h3></div>
-                <SponsorsRow sponsors={sponsors} />
-                <div className={styles.backPill}><h3 className={styles.sponsorH3} style={{ color: '#2ebdeb' }}>
-                    Silver Tier
-                </h3></div>
-                <SponsorsRow sponsors={sponsors2} />
-                <div className={styles.backPill}><h3 className={styles.sponsorH3} style={{ color: '#50c878' }}>
-                    Emerald Tier
-                </h3></div>
-                <SponsorsRow sponsors={sponsors3} />
-                <div className={styles.backPill}><h3 className={styles.sponsorH3} id={styles.Learn} style={{ color: '#d15dcf' }}>
-                    Learning Partner
-                </h3></div>
-                <SponsorsRow sponsors={sponsors4} />
-                <div className={styles.backPill}><h3 className={styles.sponsorH3} id={styles.Ruby} style={{ color: '#ff6361' }}>
-                    Ruby Tier
-                </h3></div>
-                <SponsorsRow sponsors={sponsors5} />
-            </div>
         </div>
     )
 }

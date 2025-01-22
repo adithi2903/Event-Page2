@@ -1,107 +1,117 @@
+const event = {
+    id: 1,
+    link: "https://docs.google.com/forms/d/1kPIptXunTYBykR6xTYSxoSdoX0Vg1unL8JVCqkJ56tA",
+    name: 'Opening Ceremony',
+    tag: 'Opening Ceremony',
+    description: `The event will begin with an inaugural speech, welcoming all participants and dignitaries. There will be an introduction to the day's schedule and any important announcements regarding the events.`,
+    date: '27th January 2025 , AB5 Auditorium',
+    time: '9:30 AM – 10:30 AM',
+    venue: 'AB5 Auditorium',
+    organisers: [
+      {
+        key: '1',
+        name: 'Team MBOSC',
+        email: 'panchadip.mitblr2023@learner.manipal.edu',
+        phoneNumber: '8116760429',
+      }
+    ],
+    poster: 'https://res.cloudinary.com/dxb5lx3gk/image/upload/v1737546644/OpeningCeremony_zrzfg3.png',
+  };
+
+import Image from 'next/image';
+
+// Render the event in a React component
+function EventComponent() {
+  return (
+    <div>
+      <h1>{event.name}</h1>
+      <p>{event.description}</p>
+      <a href={event.link} target="_blank" rel="noopener noreferrer">
+        Open Google Form
+      </a>
+      <Image src={event.poster} alt="Event Poster" width={500} height={500} />
+    </div>
+  );
+}
+
 const events = [
-    {
-        id: 1,
-        link: 'commit-the-flag',
-        name: 'Commit The Flag',
-        tag: 'Capture The Flag',
-        description: `To create the best lock, know what breaks the good ones around.\n \nCompete for the final flag in a labyrinth of information with 6 rounds, ranging from simple ciphers to intricate reverse engineering puzzles.\nCan you or your team Capture the Flag?`,
-        date: '26th January 2025 ',
-        time: '4:30pm - 8:30pm',
-        organisers: [
-            {
-                key: '1',
-                name: 'Gouri Nair',
-                email: 'gouri_nair@manipal.edu',
-                phoneNumber: '08506922580',
-            },
-            {
-                key: '2',
-                name: 'Nikhil Menon',
-                email: 'nikhilmenon@manipal.edu ',
-                phoneNumber: '7059335706',
-            },
-        ],
-        poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793220/CTF_bfluvm.png',
-        registration:
-            '/',
-        leadLink:"1ikUbjDjqULqP3sSQeZPoYP3Wj4lwLW90PHB1ihbIFfk",    
-    },
+    event,
     {
         id: 2,
-        link: 'breaking-bad',
-        name: 'Breaking Bad',
-        tag: 'A Deep Learning Approach',
+        link: 'guest lecture',
+        name: 'Guest Lecture',
+        tag: 'A promising and insightful Guest Lecture',
         description:
-            '“Shut the f— up and let me die in peace.”-Mike, Now that’s deep or is it umm....dark?\n \nShow off your Deep Learning skills by creating the most efficient model from the provided data set and problem statement while experiencing the dramatic, dark and action-packed storyline of breaking bad.',
-        date: '27th January 2025',
+            '“A distinguished guest speaker will deliver a lecture on a relevant and engaging topic. This session aims to provide insights and inspiration to the attendees, followed by a short Q&A session."',
+        date: '27th January 2025, AB5 Auditorium',
         time: '8:00 am',
         organisers: [
             {
                 key: '1',
-                name: 'Aditya Srinivas Menon',
-                email: 'aditya_srin@manipal.edu',
-                phoneNumber: '(+91) 8406848439',
+                name: 'Panchadip Bhattacharjee',
+                email: 'panchadip.mitblr2023@learner.manipal.edu',
+                phoneNumber: '8116760429',
             },
             {
                 key: '2',
-                name: 'Prasanna Devadiga',
-                email: 'prasanna2019@manipal.edu',
-                phoneNumber: '9697781923',
+                name: 'Renuka A',
+                email: 'renuka.mitblr2022@learner.manipal.edu',
+                phoneNumber: '9945877455',
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793392/BB_bcq4a4.jpg',
-        registration: '/',
+        registration: "https://docs.google.com/forms/d/e/1FAIpQLSe3NJ-9eM_a80FgC2VRQ9TQQRaJSLG4vuXGBPJL6GZAQGJojQ/viewform?embedded=true",
         leadLink:"1vMIoyz6Q6FOtx9pPPP92yKkfrrZ-boipmSPAaI0qB6Y",    
     },
     {
         id: 1,
-        link: 'codesprint',
-        name: 'CodeSprint',
-        tag: 'Competitive Programming contest',
+        link: 'show&tell',
+        name: 'Show & Tell',
+        tag: 'show&tell',
         description:
-            'If TLE is something that you don’t wish even for your worst enemies, this event is for you.\n Compete with the best programmers, solve problems and top the leaderboard! The huge prize pool and the dope goodies are just the cherries on top. \n May the best algorithm win!',
-        date: '27th January',
-        time: '6:00pm - 8:00pm',
+            "'The Show and Tell event will give participants the opportunity to showcase their talents, projects, or ideas to a group of peers. It could involve anything from presenting a creative project, demonstrating a new product or concept, or sharing a personal achievement. This session encourages attendees to engage with each others work and exchange ideas. It provides an interactive space for learning, feedback, and networking.",
+        date: '27th January 2025 , AB4 Room No:108',
+        time: '11:30 am - 1:00 pm',
         organisers: [
             {
                 key: '1',
-                name: 'Prabal Kalia',
-                email: 'prabal@manipal.edu',
-                phoneNumber: '(+91) 8130580250',
+                name: 'Panchadip Bhattacharjee',
+                email: 'panchadip.mitblr2023@learner.manipal.edu',
+                phoneNumber: '8116760429',
             },
             {
                 key: '2',
-                name: 'Seshathri S',
-                email: 'seshathri@manipal.edu',
-                phoneNumber: '(+91) 903009737',
+                name: 'Renuka A',
+                email: 'renuka.mitblr2022@learner.manipal.edu',
+                phoneNumber: '9945877455',
             },
         ],
-        poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793432/CP_Insta_p40r6s.jpg',
+        poster: 'https://res.cloudinary.com/dxb5lx3gk/image/upload/v1737546646/Show_Tell_j0ciaw.png',
         registration:
             '/',
         leadLink:"1k2yejkk2p7URprQ71YsEw3jJr6F-bFe4JpdQ-Yz8Pr4",        
     },
     {
         id: 1,
-        link: 'console-log-replicate',
-        name: 'console.log(“replicate”)',
-        tag: 'Can you handle the SaSS?',
+        link: 'Trivia Quiz (General):',
+        name: 'console.log(“TRIVIA QUIZZZ”)',
+        tag: 'Can you handle the tech quiz?',
         description:
-            'Are you even an engineer if you haven’t done some web dev?\nHere is a chance to implement all the Frontend facts you’ve learned so far.\nAll you’ve to do is replicate the given website. Let’s see how original your copy is!\nGet Set Develop',
-        date: '28th January 2025',
-        time: '3:30pm - 5:00pm',
+            "The General Trivia Quiz is a fun and competitive event designed to test the participants' knowledge across various subjects such as general knowledge, history, pop culture, science, and more. Teams or individual participants will compete to answer a series of questions, and the session will be lively, with the possibility of small prizes for top scorers. It’s an engaging way to break the monotony of traditional events while promoting a sense of friendly competition.",
+        date: '27th January 2025 , Auditorium AB5',
+        time: '2:30pm - 4:30pm',
         organisers: [
             {
                 key: '1',
-                name: 'Shashank Srivastava',
-                email: 'shashank.srivastava25sks@\u200Bgmail.com',
-                phoneNumber: '(+91) 976782020',
+                name: 'Panchadip Bhattacharjee',
+                email: 'panchadip.mitblr2023@learner.manipal.edu',
+                phoneNumber: '8116760429',
             },
             {
                 key: '2',
-                name: 'Sarthak Bindal',
-                email: 'bindalsarthak03@\u200Bgmail.com',
-                phoneNumber: '(+91) 798795890',
+                name: 'Renuka A',
+                email: 'renuka.mitblr2022@learner.manipal.edu',
+                phoneNumber: '9945877455',
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793230/WebDev_kdy8jd.png',
@@ -111,18 +121,25 @@ const events = [
     },
     {
         id: 1,
-        link: 'take-de-bait',
-        name: 'Take De Bait!',
-        tag: 'Convince! Rebut! Win!',
+        link: 'Treasure Hunt:',
+        name: 'Treasure Hunt',
+        tag: 'Explore! Rebut! Win!',
         description:
-            'Do you have a knack in coming up with dope counter arguments? Are you a tech enthusiast looking for a place to talk about your standpoint? Can you convince your opponent that the best ideas lie with you?  Well, TAKE DE BAIT already!',
-        date: '28th January 2025',
-        time: '9:00am - 11:00am',
+            'The Treasure Hunt will be an outdoor or campus-wide event where participants are given clues or puzzles to solve in order to find hidden treasures. It may involve a mix of mental and physical challenges, encouraging teamwork and creative thinking. The hunt will be fun and adventurous, as participants move through different locations, solving puzzles and completing tasks to uncover the treasure.',
+        date: '28th January 2025, Venue to be updated soon ',
+        time: '5:00 PM to 7:00 PM',
         organisers: [
             {
                 key: '1',
-                name: 'Panchadip',
+                name: 'Panchadip Bhattacharjee',
                 email: 'panchadip.mitblr2023@learner.manipal.edu',
+                phoneNumber: '8116760429',
+            },
+            {
+                key: '2',
+                name: 'Renuka A',
+                email: 'renuka.mitblr2022@learner.manipal.edu',
+                phoneNumber: '9945877455',
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793221/D1_ceshnu.jpg',
@@ -130,69 +147,29 @@ const events = [
             '/',
         leadLink:"1SZkSgZO9BVO9-rMkURy4T-f37GsdB-SPJRN_iw_ZKMM",    
     },
+    
+    
     {
         id: 1,
-        link: 'brandaid',
-        name: 'BrandAID',
-        tag: 'Analyse, Ideate, Design!',
-        description:
-            'Ever seen a huge logo on a billboard and thought you could’ve done so much better?\nThis is your chance to redesign some of the infamous brand logos and their identity.\nAnalyse, Ideate, Design!',
-        date: '30th October',
-        time: '10:00am - 12:00am',
-        organisers: [
-            {
-                key: '1',
-                name: 'Panchadip',
-                email: 'panchadip125@gmail.com',
-            },
-            {
-                key: '2',
-                name: 'Prajwal',
-                email: 'panchadip125@gmail.com',
-                phoneNumber: '(+91) 9370324791',
-            },
-        ],
-        poster: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1633950066/BrandAID_flot8z.png',
-        registration:
-            '/', 
-        leadLink:"19YaOkzhCQiyUHg1pvAXeNPLVNGhNTSP4vIchESMBBAE",    
-    },
-    {
-        id: 1,
-        link: 'fantasy-crypto-league',
-        name: 'Fantasy Crypto League',
-        tag: 'Elon can do it, you musk too.',
-        description:
-            ' How accurately can you predict the troughs and crests of crypto stocks? \n\nTest your knowledge in this 3-day long mock investment contest. The rules are simple, the one with the most profit wins.',
-        date: '28th January 2025',
-        time: '7:30pm ',
-        organisers: [
-            {
-                key: '1',
-                name: 'Prajwal Pandey',
-                email: 'prajwal@manipal.edu',
-                phoneNumber: '(+91) 9599928563',
-            },
-        ],
-        poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793231/Crypto_ouh7hx.png',
-        registration: 'https://dare2compete.com/o/8VLHvq1?lb=osb1xnJ',
-        leadLink:"14BEml9QbsCcVn25YWX8kNKz7KK74MvcU2116zx1jt08",    
-    },
-    {
-        id: 1,
-        link: 'retropolis',
-        name: 'Retropolis',
+        link: ' Bizarre Bazaar',
+        name: ' “Bizzare Bazzar”',
         tag: 'From Retro to Life',
         description:
-            "Consider yourself a pro gamer that likes to dabble in its making as well? Got some mad game development skills that you can't wait to exhibit? \n Well, Retroopolis is just the event for you! Build your own virtual world; \n Your World, Your Rules!",
-        date: '27th January 2025',
-        time: '9:00am',
+            "The Bizarre Bazaar will feature various stalls or booths offering unique, creative, or unusual items. This marketplace will showcase products, crafts, food, and other interesting finds. It could include items for sale, artistic displays, or even interactive workshops where visitors can participate. The event will run throughout the day, offering attendees a chance to explore different booths, engage with vendors, and purchase one-of-a-kind items!",
+        date: '28th January 2025, AB5 Room No: 108',
+        time: '9:30 am - 11:30 am',
         organisers: [
             {
                 key: '1',
                 name: 'Panchadip Bhattacharjee',
-                email: 'panchadip125@gmail.com',
-                phoneNumber: '(+91) 8688179209',
+                email: 'panchadip.mitblr2023@learner.manipal.edu',
+                phoneNumber: '8116760429',
+            },
+            {
+                key: '2',
+                name: 'Renuka A',
+                email: 'renuka.mitblr2022@learner.manipal.edu',
+                phoneNumber: '9945877455',
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793272/GameDev_z8he5g.png',
@@ -201,25 +178,25 @@ const events = [
     },
     {
         id: 1,
-        link: 'artemis',
-        name: 'Project: Aятємis',
-        tag: 'Be the next Hardy Boys!',
+        link: 'GUEST_Talk',
+        name: 'GUEST Talk',
+        tag: '“Wisdom from the Experts, Straight to You!”',
         description:
-            "Do you have what it takes to be the next Hardy Boys?\n \nAn expedition that would give you an adrenaline rush like never before! Be the first team to solve mind-bending puzzles that's certain to exercise your grey matter and keep you on your toes.",
-        date: '26th January 2025',
+            "A special guest speaker will host a talk focusing on a specific topic of interest. The guest could be a leader in a particular field, an academic, or someone with significant experience to share. The talk will dive deep into the subject matter, providing valuable insights, trends, or research. Attendees will have the opportunity to learn from an expert and engage with the content through a Q&A session afterward.",
+        date: '28th January 2025, AB5 Room No: 108',
         time: '7:00pm - 9:00pm',
         organisers: [
             {
                 key: '1',
-                name: 'Panchadip',
-                email: 'panchadip125@gmail.com ',
-                phoneNumber: '(+91) 7259395776',
+                name: 'Panchadip Bhattacharjee',
+                email: 'prabal@manipal.edupanchadip.mitblr2023@learner.manipal.edu',
+                phoneNumber: '8116760429',
             },
             {
                 key: '2',
-                name: 'Panchadip Bhattacharjee',
-                email: 'panchadip128@gmail.com',
-                phoneNumber: '(+91) 08606922585',
+                name: 'Renuka A',
+                email: 'renuka.mitblr2022@learner.manipal.edu',
+                phoneNumber: '9945877455',
             },
         ],
         poster: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634185031/final_1_hug6mt.png',
@@ -229,19 +206,25 @@ const events = [
     },
     {
         id: 1,
-        link: 'reverse-coding',
-        name: 'Reverse Coding',
-        tag: 'Who wants to code straight?',
+        link: 'digital_storytelling',
+        name: 'Digital Storytelling',
+        tag: '“Crafting Stories, Shaping Futures!”',
         description:
-            'To find order in chaos, is what life is all about. \n \nGiven a black box with certain inputs and their respective outputs, your task is to find how the black box works, and code.',
-        date: '27th January 2025',
-        time: '2:30pm - 4:30pm',
+            'Digital Storytelling is an event where participants learn how to tell compelling stories using digital tools like video, animation, or multimedia presentations. The session will cover techniques and software used to craft engaging narratives, whether for marketing, education, or entertainment purposes.',
+        date: '28th January 2025, AB5',
+        time: '2:00pm - 4:30pm',
         organisers: [
             {
                 key: '1',
                 name: 'Panchadip Bhattacharjee',
-                email: 'panchadip125@gmail.com ',
-                phoneNumber: '(+91) 7259395776',
+                email: 'panchadip.mitblr2023@learner.manipal.edu',
+                phoneNumber: '8116760429',
+            },
+            {
+                key: '2',
+                name: 'Renuka A',
+                email: 'renuka.mitblr2022@learner.manipal.edu',
+                phoneNumber: '9945877455',
             },
         ],
 
@@ -252,73 +235,31 @@ const events = [
     },
     {
         id: 1,
-        link: 'sold-it',
-        name: 'Sold It!',
+        link: 'closing_ceremony',
+        name: 'Closing Ceremony',
         tag: 'Clear the Pitch',
         description:
-            'A wacky pitching competition that you would never see happening in a boardroom!\n \nUse the best of your wits to smooth-talk, persuade and entice us into buying bizarre and ridiculous ideas that would defy any rationale.',
-        date: '27th January 2025',
-        time: '1:00pm - 3:00pm',
+            'The Closing Ceremony marks the conclusion of the event.This ceremony will close the event on a positive note, leaving attendees with a sense of accomplishment and the anticipation of the next edition.',
+        date: '28th January 2025',
+        time: '5:00pm - 6:00pm, AB 5 Auditorium',
         organisers: [
             {
                 key: '1',
-                name: 'Panchadip',
-                email: 'panchadip128@gmail.com',
-                phoneNumber: '(+91) 7559888295',
+                name: 'Panchadip Bhattacharjee',
+                email: 'panchadip.mitblr2023@learner.manipal.edu',
+                phoneNumber: '8116760429',
             },
             {
                 key: '2',
-                name: 'Pritam Paul',
-                email: 'pritam_paul@manipal.edu',
-                phoneNumber: '(+91) 8139888072',
+                name: 'Renuka A',
+                email: 'renuka.mitblr2022@learner.manipal.edu',
+                phoneNumber: '9945877455',
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793227/SoldIT_bkhole.png',
         registration:
             '/',
         leadLink:"1C5UPwUzXGkWk33NaKwB1QDXURhK98zN1tlpLDiGNMWQ",        
-    },
-    {
-        id: 1,
-        link: 'rebibe-me-jett',
-        name: 'Inter MAHE Tech Trivia Tournament',
-        tag: 'Rebibe Me Jett',
-        description:
-            'An exhilarating Quiz Tournament, with live rewards, a Huge Prize Pool, cool NEURA T-Shirts, and an knowledgious adrenaline rush that you cannot afford to miss',
-        date: 'Neura AI 3rd Event day',
-        time: '9:30pm',
-        organisers: [
-            {
-                key: '1',
-                name: 'Panchadip ',
-                email: 'panchadip125@gmail.com',
-                phoneNumber: '(+91) 9080385059',
-            },
-        ],
-        poster: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634976697/VALORANT_1_tblk1r.jpg',
-        registration: '/',
-        leadLink:"1JKhyzO4i2Y0qScSVORNXUyLWmAM1eqVXeeJOdvpzp00",    
-    },
-    {
-        id: 1,
-        link: 'stick-to-it',
-        name: 'Stick-To-It',
-        tag: 'Sticker Making Competition brought to you by RAAHEE',
-        description:
-            'The most important part of any tech event often culminates in the form of stickers that we put on our laptops. In fact, the level of your activity during your engineering days is defined by how much your laptop’s back is not visible due to stickers covering a major part of it.\n \nThis Dhruva, you have a chance to design your own stickers, and if you are good at it, also get rewarded for it.',
-        date: '28th January 2025 - 31st January 2025',
-        time: '28th 6:00pm - 31st 11:59pm',
-        organisers: [
-            {
-                key: '1',
-                name: 'Priyanshu',
-                email: 'neura_ai@manipal.edu',
-                phoneNumber: '(+91) 8407016547',
-            },
-        ],
-        poster: 'https://res.cloudinary.com/roshin/image/upload/v1635413455/sticktoit_s4kpmz.jpg',
-        registration: '/',
-        leadLink:"1uwZai7okPro6HhWcMn09fOQZ1_RHDc1capUfdQZ8iWs",
     },
 ]
 

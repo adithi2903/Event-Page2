@@ -25,6 +25,7 @@ const Card = (props) => {
                 <div className={classNames(styles.wrapper, styles.active)}>
                     <div className={styles.daycards}>
                         <div className={styles.detailContainer}>
+                            <Image src={props.poster} width={250} height={250} alt='poster' />
                             <h3>{props.name}</h3>
                             <p>{props.room}</p>
                             <p>{26 + props.date}th January 2025</p>

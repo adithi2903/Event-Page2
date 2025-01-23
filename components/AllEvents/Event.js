@@ -23,6 +23,7 @@ export const Event = () => {
                         room={data.room}
                         date={data.day}
                         poster={data.poster}
+                        link={data.link}
                     />
                 ))}
             </div>

@@ -32,7 +32,7 @@ const Card = (props) => {
                             <p>{26 + props.date}th January 2025</p>
                             <p>{props.time}</p>
                             <Link
-                                href='https://forms.office.com/r/ntqmxFYEKJ'
+                                href={props.link}
                                 passHref={true}
                             >
                                 <a target="_blank">

@@ -259,7 +259,7 @@ const advisory = [
         instagram:"https://www.instagram.com/sourav.g.pai/",
     },
     {
-        name: 'Md Fazil Hussain',
+        name: 'Mohammed Fazil Hussain',
         image: '/team/fazil.png',
         pos:'',
         linkedin:"https://www.linkedin.com/in/fazil-hussain-md?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",

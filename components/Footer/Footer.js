@@ -52,46 +52,7 @@ const Footer = () => {
                                 </a>
                             </Link>
                         </li>
-                        <li>
-                            <Link
-                                href="/"
-                                passHref={true}
-                            >
-                                <a target="_blank">
-                                    <FaTwitter />
-                                </a>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                href="/"
-                                passHref={true}
-                            >
-                                <a target="_blank">
-                                    <SiDiscord />
-                                </a>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                href="/"
-                                passHref={true}
-                            >
-                                <a target="_blank">
-                                    <FaYoutube />
-                                </a>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                href="/"
-                                passHref={true}
-                            >
-                                <a target="_blank">
-                                    <FaTwitch />
-                                </a>
-                            </Link>
-                        </li>
+                        
                     </ul>
                 </div>
             </div>

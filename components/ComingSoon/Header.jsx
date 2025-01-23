@@ -32,8 +32,8 @@ const Header = () => {
                     data-aos-duration="2500"
                 >
                     <span className={styles.subtext}>
-                        Welcome to MBOSC, MIT BLR&apos;s own Technical
-                        Club
+                        Welcome to MBOSC, MAHE BLR&apos;s own Open Source
+                        Community
                     </span>
                     <span>
                         Join us in this two-day-long virtual extravaganza

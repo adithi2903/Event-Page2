@@ -92,7 +92,7 @@ const events = [
     {
         name: 'Roshan Ravi Kiran',
         image: '/team/Roshan_Ravi_Kiran.jpg',
-        pos:'Logistics Head',
+        pos:' Finance and Logistics Head',
         linkedin:"https://www.linkedin.com/in/roshan-ravi-kiran/",
         instagram:"https://www.instagram.com/rr_roshan311?igsh=NHZodTZpNzdnNmlw",
     },
@@ -125,10 +125,10 @@ const events = [
         instagram:"https://www.instagram.com/manoj_reddy2007/",
     },
     {
-        name: 'Sheekar Reddy Pindi',
+        name: 'Sreekar Reddy Pindi',
         image: '/team/Sreekar_Reddy_Pindi.jpeg',
         pos:'Photography Vice-Head',
-        linkedin:"",
+        linkedin:"https://www.linkedin.com/in/sreekar-reddy-p-8bb249287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app ",
         instagram:"https://www.instagram.com/sreekar_reddy28/",
     }
 ]
@@ -137,21 +137,21 @@ const ambassadors = [
     {
         name: 'Vaishnavi Mairpady ',
         image: '/team/Vaishnavi_Mairpady.jpg',
-        pos:'Abassadors MLS',
+        pos:'Ambassadors MLS',
         linkedin:"",
         instagram:"https://www.instagram.com/shnaviwhy/",
     },
     {
-        name: 'Shreya',
+        name: 'Shreya Singh',
         image: '/team/Shreya.jpg',
-        pos:'Abassadors MIT',
+        pos:'Ambassador MIT',
         linkedin:"",
-        instagram:"",
+        instagram:"https://www.instagram.com/shree_yaa5?igsh=MTRwanhwdXJ6NTA4dA==",
     },
     {
         name: 'Tarini Tenneti',
         image: '/team/Tarini_Tenneti.jpg',
-        pos:'Abassadors TAPMI',
+        pos:'Ambassadors TAPMI',
         linkedin:"https://www.linkedin.com/in/tarini-tenneti-35b8402b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         instagram:"https://www.instagram.com/_tariiz/",
     },
@@ -162,7 +162,7 @@ const media = [
         name: 'Manasvi M ',
         image: '/team/Manasvi_M.png',
         pos:'Marketing Head',
-        linkedin:"https://www.linkedin.com/in/manasvi-mathur-b53ab9219?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        linkedin:"",
         instagram:"https://www.instagram.com/manaxx_7/",
     },
     {
@@ -173,7 +173,7 @@ const media = [
         instagram:"https://www.instagram.com/tavishi0310/",
     },
     {
-        name: 'Jacqueline Lynda Leona',
+        name: 'Jacqueline Lynda Leonard',
         image: '/team/Jacqueline_Lynda_Leona.jpeg',
         pos:'Social Media Head',
         linkedin:"",
@@ -183,22 +183,30 @@ const media = [
         name: 'Kankshitha Reddy',
         image: '/team/Kankshitha_Reddy.jpg',
         pos:'Social Media Vice-Head',
-        linkedin:"",
-        instagram:"",
+        linkedin:"https://www.linkedin.com/in/kankshitha-reddy-5215b0242",
+        instagram:"https://www.instagram.com/kankshieee?igsh=cGRmYTNpcWZjNjhi",
     },
     {
-        name: 'Kartik Ganesh ',
+        name: 'kartik Ganesh Dumpala',
         image: '/team/Kartik_Ganesh.png',
         pos:'Graphic Designer',
         linkedin:"",
         instagram:"https://www.instagram.com/kartik_bharadwaja/",
-    }
+    },
+    {
+        name: 'Mohith Akshay',
+        image: '/team/Mohith.jpg',
+        pos:'Graphic Designer',
+        linkedin:"",
+        instagram:"",
+    },
+
 ]
 
 
 const exec = [
     {
-        name: 'Sai Kaushik Cheruku',
+        name: 'Sai Koushik Cheruku',
         image: '/team/Sai_Kaushik_Cheruku.jpg',
         pos:'',
         linkedin:"https://www.linkedin.com/in/saikoushikcheruku?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -219,23 +227,16 @@ const exec = [
         instagram:"https://www.instagram.com/xcallibber/",
     },
     {
-        name: 'Tanvi Khanna',
+        name: 'Tanvi Khandelwal',
         image: '/team/Tanvi_Khanna.jpg',
         pos:'',
-        linkedin:"",
+        linkedin:"https://www.linkedin.com/in/tanvi-khandelwal-a8403b24a",
         instagram:"https://www.instagram.com/_txnviii_/",
     },
 ]
 
 
 const advisory = [
-    {
-        name: 'Dr Jyoti Shetty',
-        image: '/team/Dr_Jyoti_Shetty.png',
-        pos:'',
-        linkedin:"https://www.linkedin.com/in/dr-jyoti-shetty/",
-        instagram:"",
-    },
     {
         name: 'Dr T Gopalakrishnan',
         image: '/team/Dr_T_Gopalakrishnan.png',
@@ -244,11 +245,11 @@ const advisory = [
         instagram:"",
     },
     {
-        name: 'Md Fazil Hussain',
-        image: '/team/fazil.png',
+        name: 'Dr Jyoti Shetty',
+        image: '/team/Dr_Jyoti_Shetty.png',
         pos:'',
-        linkedin:"https://www.linkedin.com/in/fazil-hussain-md?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        instagram:"https://www.instagram.com/fazilhussain_______offical/",
+        linkedin:"https://www.linkedin.com/in/dr-jyoti-shetty/",
+        instagram:"",
     },
     {
         name: 'Saurav G Pai',
@@ -256,6 +257,13 @@ const advisory = [
         pos:'',
         linkedin:"https://www.linkedin.com/in/sourav-g-pai-54106a26b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         instagram:"https://www.instagram.com/sourav.g.pai/",
+    },
+    {
+        name: 'Md Fazil Hussain',
+        image: '/team/fazil.png',
+        pos:'',
+        linkedin:"https://www.linkedin.com/in/fazil-hussain-md?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        instagram:"https://www.instagram.com/fazilhussain_______offical/",
     }
 ]
 export { executive, ambassadors,exec,events,media,dev_res,advisory }

@@ -252,7 +252,7 @@ const advisory = [
         instagram:"",
     },
     {
-        name: 'Saurav G Pai',
+        name: 'SOurav G Pai',
         image: '/team/saurav.png',
         pos:'',
         linkedin:"https://www.linkedin.com/in/sourav-g-pai-54106a26b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",

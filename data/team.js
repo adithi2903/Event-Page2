@@ -137,7 +137,7 @@ const ambassadors = [
     {
         name: 'Vaishnavi Mairpady ',
         image: '/team/Vaishnavi_Mairpady.jpg',
-        pos:'Ambassadors MLS',
+        pos:'Ambassador MLS',
         linkedin:"",
         instagram:"https://www.instagram.com/shnaviwhy/",
     },
@@ -151,7 +151,7 @@ const ambassadors = [
     {
         name: 'Tarini Tenneti',
         image: '/team/Tarini_Tenneti.jpg',
-        pos:'Ambassadors TAPMI',
+        pos:'Ambassador TAPMI',
         linkedin:"https://www.linkedin.com/in/tarini-tenneti-35b8402b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         instagram:"https://www.instagram.com/_tariiz/",
     },
@@ -187,7 +187,7 @@ const media = [
         instagram:"https://www.instagram.com/kankshieee?igsh=cGRmYTNpcWZjNjhi",
     },
     {
-        name: 'kartik Ganesh Dumpala',
+        name: 'Kartik Ganesh Dumpala',
         image: '/team/Kartik_Ganesh.png',
         pos:'Graphic Designer',
         linkedin:"",
@@ -197,8 +197,8 @@ const media = [
         name: 'Mohith Akshay',
         image: '/team/Mohith.jpg',
         pos:'Graphic Designer',
-        linkedin:"",
-        instagram:"",
+        linkedin:"https://www.linkedin.com/in/d-mohith-akshay-3447a5295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        instagram:"https://www.instagram.com/d.mohith.akshay?igsh=bzgxem92Y2RsY3Bu",
     },
 
 ]

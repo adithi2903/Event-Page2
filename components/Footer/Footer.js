@@ -26,7 +26,7 @@ const Footer = () => {
                     <ul>
                         <li>
                             <Link
-                                href="/"
+                                href="mailto:example@example.com?subject=Inquiry&body=Hi there,"
                                 passHref={true}
                             >
                                 <FaEnvelope />

@@ -65,7 +65,7 @@ const Sponsor_Faq = () => {
                         </div>
                         <div className={Style.chatB}>
                             Don&apos;t worry. Just check out our event page and
-                            hop on to our discord server. We will make sure you
+                            hop on to our whatsApp group. We will make sure you
                             are equipped with the essential resources.
                         </div>
                         <div className={Style.chatW}>

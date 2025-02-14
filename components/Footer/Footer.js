@@ -14,7 +14,7 @@ import Link from 'next/link'
 import logo from '../../public/MBOSC_hor.png'
 const Footer = () => {
     function love() {
-        alert("With ❤️💜💛, We present to you... MBOSC's Flagship <Event>!")
+        alert("With ❤️💜💛, We present to you... NEURA's Flagship <Event>!")
     }
     return (
         <div className={styles.footer}>

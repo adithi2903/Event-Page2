@@ -11,11 +11,16 @@ const Timer = ({ setShowTimer }) => {
 
     useEffect(() => {
         const interval = setInterval(() => {
-            setCurrentTime(moment())
-        }, 1000)
-        if (timeBetween == 0) setShowTimer(false)
-        return () => clearInterval(interval)
-    }, [])
+            setCurrentTime(moment());
+        }, 1000);
+    
+        if (timeBetween === 0) {
+            setShowTimer(false);
+        }
+    
+        return () => clearInterval(interval);
+    }, [setCurrentTime, timeBetween, setShowTimer]);
+    
 
     return (
         <div className={styles.container}>

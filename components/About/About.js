@@ -18,7 +18,7 @@ const About = () => {
                 </h1>
 
                 <p className={styles.content}>
-                    Neura AI is MIT BLR's largest AI tech community.
+                    Neura AI is MIT BLR&apos;s largest AI tech community.
                     <br />
                     <br />
                     Our club focuses on helping students discover their passions, prepare for internships and careers, and make friends and professional connections. We promote computer science education through professional AI events, social events, and conferences.

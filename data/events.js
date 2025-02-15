@@ -27,7 +27,7 @@ function EventComponent() {
       <h1>{event.name}</h1>
       <p>{event.description}</p>
       <a href={event.link} target="_blank" rel="noopener noreferrer">
-        Open Google Form
+        Open Google Forms
       </a>
       <Image src={event.poster} alt="Event Poster" width={500} height={500} />
     </div>

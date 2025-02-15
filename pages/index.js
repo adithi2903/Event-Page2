@@ -43,7 +43,7 @@ export default function Home() {
         <>
             <div className={styles.container} style={{ height: height }}>
                 <Head>
-                    <title>MBOSC CONCLAVE - MIT BLR</title>
+                    <title>NEURA AI CONCLAVE - MIT BLR</title>
                     {/* <meta
                         name="description"
                         content="MBOSC - Manipal Institute of Technology- Bengaluru"
@@ -61,7 +61,7 @@ export default function Home() {
                         content="https://www.manipal.edu"
                     />
                     <meta property="og:type" content="website" />
-                    <link rel="icon" href="/png/MBOSC_2.png" />
+                    <link rel="icon" href="/png/NEURA_AI.png" />
                 </Head>
                 {router.asPath === '/' ? (
                     show ? (

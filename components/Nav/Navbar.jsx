@@ -53,11 +53,11 @@ const Navbar = () => {
                 <Link href="/" passHref>
                     <a target="_self">
                         <Image
-                            src="/png/MBOSC_2.png"
+                            src="/png/NEURA_AI.png"
                             className="logoimg"
                             alt="Neura Logo"
                             height={60}
-                            width={60}
+                            width={75}
                             loading="eager"
                         ></Image>
                     </a>
@@ -65,7 +65,7 @@ const Navbar = () => {
 
                 <span className="maintxt">
                     <Link href="/" passHref>
-                        MBOSC
+                        NEURA AI
                     </Link>
                 </span>
             </div>

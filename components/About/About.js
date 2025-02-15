@@ -14,16 +14,16 @@ const About = () => {
             <div className={styles.title_container}>
                 <h1 className={styles.title} >
                   
-                    What is -<span>MBOSC&nbsp;?</span>
+                    What is -<span>NEURA AI&nbsp;?</span>
                 </h1>
 
                 <p className={styles.content}>
-                    MBOSC is the biggest Open Source community in the campus hosting a variety of events 
+                    Neura AI is MIT BLR's largest AI tech community.
                     <br />
                     <br />
-                    Dive into the world of Open Source, where innovation meets excellence.
-                    Join us to explore cutting-edge technologies, develop groundbreaking solutions, and shape the future of AI, Data Science and other evolving tech sectors at
-                    <h2>Takshakala 2.0</h2>
+                    Our club focuses on helping students discover their passions, prepare for internships and careers, and make friends and professional connections. We promote computer science education through professional AI events, social events, and conferences.
+                    Join us at
+                    <h2>AI FOR EVERYONE</h2>
 
                 </p>
                 {/* <div className={styles.btn_container}>
@@ -32,11 +32,11 @@ const About = () => {
             </div>
             <div className={styles.date_container}>
                 <div className={styles.left_date} >
-                    <Date day="27" month="January 2025" subtxt="th" />
+                    <Date day="27" month="March 2025" subtxt="th" />
                 </div>
                 <hr className={styles.line} />
                 <div className={styles.right_date} >
-                    <Date day="28" month="January 2025" subtxt="th" />
+                    <Date day="28" month="March 2025" subtxt="th" />
                 </div>
             </div>
             <br />

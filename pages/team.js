@@ -8,12 +8,12 @@ const team = () => {
     return (
         <>
             <Head>
-                <title>MBOSC CONCLAVE TEAM </title>
+                <title>NEURA AI CONCLAVE TEAM </title>
                 <meta
                     name="description"
                     content="MBOSC- MIT BLR FLAGSHIP EVENT"
                 />
-                <link rel="icon" href="/png/MBOSC_2.png" />
+                <link rel="icon" href="/png/NEURA_AI.png" />
             </Head>
             <div className={styles.container}>
                 <Navbar />

@@ -4,11 +4,8 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
 import {
-    advisory,
-    ambassadors,
     dev_res,
     events,
-    exec,
     executive,
     media,
 
@@ -26,7 +23,7 @@ export const Team = () => {
                 Our <span>Team</span>
             </h1>
             <h2 data-aos="zoom-in" data-aos-duration="1500">
-                Executive Heads
+                Core Committee
             </h2>
             <div className={styles.mentor}>
                 {
@@ -40,10 +37,14 @@ export const Team = () => {
                             instagram={data.instagram}
                             twitter={data.twitter}
                             pos={data.pos}
+                            description={data.description}
                         />
                     ))}
             </div>
 
+            <h2 data-aos="zoom-in" data-aos-duration="1500">
+                Working Committee
+            </h2>            
             <h2 data-aos="zoom-in" data-aos-duration="1500">
                 Web Development And Research Team
             </h2>
@@ -59,12 +60,13 @@ export const Team = () => {
                             instagram={data.instagram}
                             twitter={data.twitter}
                             pos={data.pos}
+                            description={data.description}
                         />
                     ))}
             </div>
 
             <h2 data-aos="zoom-in" data-aos-duration="1500">
-                Events & Ops, Logistics, HR and the Photography Department
+                Ops & Logistics and the Photography Department
             </h2>
             <div className={styles.mentor}>
                 {
@@ -78,31 +80,13 @@ export const Team = () => {
                             instagram={data.instagram}
                             twitter={data.twitter}
                             pos={data.pos}
+                            description={data.description}
                         />
                     ))}
             </div>
 
             <h2 data-aos="zoom-in" data-aos-duration="1500">
-                Campus Ambassadors
-            </h2>
-            <div className={styles.mentor}>
-                {
-                    ambassadors.map((data) => (
-                        <Card
-                            key={data.id}
-                            name={data.name}
-                            gif={data.gif}
-                            image={data.image}
-                            linkedin={data.linkedin}
-                            instagram={data.instagram}
-                            twitter={data.twitter}
-                            pos={data.pos}
-                        />
-                    ))}
-            </div>
-
-            <h2 data-aos="zoom-in" data-aos-duration="1500">
-                Marketing, Social Media and Graphic Designing Department
+                Marketing, Socials, Media and Graphic Designing Dept
             </h2>
             <div className={styles.mentor}>
                 {
@@ -116,44 +100,7 @@ export const Team = () => {
                             instagram={data.instagram}
                             twitter={data.twitter}
                             pos={data.pos}
-                        />
-                    ))}
-            </div>
-
-            <h2 data-aos="zoom-in" data-aos-duration="1500">
-                Executive Members
-            </h2>
-            <div className={styles.mentor}>
-                {
-                    exec.map((data) => (
-                        <Card
-                            key={data.id}
-                            name={data.name}
-                            gif={data.gif}
-                            image={data.image}
-                            linkedin={data.linkedin}
-                            instagram={data.instagram}
-                            twitter={data.twitter}
-                            pos={data.pos}
-                        />
-                    ))}
-            </div>
-
-            <h2 data-aos="zoom-in" data-aos-duration="1500">
-                Advisory Board
-            </h2>
-            <div className={styles.mentor}>
-                {
-                    advisory.map((data) => (
-                        <Card
-                            key={data.id}
-                            name={data.name}
-                            gif={data.gif}
-                            image={data.image}
-                            linkedin={data.linkedin}
-                            instagram={data.instagram}
-                            twitter={data.twitter}
-                            pos={data.pos}
+                            description={data.description}
                         />
                     ))}
             </div>

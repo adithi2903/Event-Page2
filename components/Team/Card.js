@@ -1,18 +1,14 @@
 import styles from '../../styles/Card.module.css'
-import { FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa'
+import { FaInstagram, FaLinkedin } from 'react-icons/fa'
 import Image from 'next/image'
-import classNames from 'classnames'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 import Link from 'next/link'
-
 
 const Card = (props) => {
     useEffect(() => {
-        AOS.init({
-            // duration : 5000
-        })
+        AOS.init()
     }, [])
 
     return (
@@ -32,34 +28,38 @@ const Card = (props) => {
                         className="imgs"
                     />
                     <style jsx global>{`
-                            .imgs {
-                                border-radius: 8px;
-                            }
-                        `}</style>
+                        .imgs {
+                            border-radius: 8px;
+                        }
+                    `}</style>
+
                     <div className={styles.content_container}>
                         <span className={styles.name}>{props.name}</span>
                     </div>
 
                     <div style={{ marginTop: '10px' }}>
-                        <div>{props.pos}</div>
+                        <div>{props.pos}</div> {/* Position */}
                     </div>
-                    
-                    <div style={{ marginTop: '10px' }}>
-                        <span style={{ marginRight: '30px' }}>
-                            <Link
-                                href={props.instagram}
-                                passHref={true}
-                            >
+
+                    {/* Improved Description Styling */}
+                    <div className={styles.descriptionContainer}>
+                        <p className={styles.description}>{props.description || " "}</p>
+                    </div>
+
+                    {/* Updated Social Links with Spacing */}
+                    <div 
+                        className={styles.socialLinks} 
+                        style={{ display: 'flex', justifyContent: 'center', gap: '20px' }}
+                    >
+                        <span>
+                            <Link href={props.instagram} passHref>
                                 <a target="_blank">
                                     <FaInstagram />
                                 </a>
                             </Link>
-                        </span> 
-                        <span style={{ marginRight: '0px' }}>
-                            <Link
-                                href={props.linkedin}
-                                passHref={true}
-                            >
+                        </span>
+                        <span>
+                            <Link href={props.linkedin} passHref>
                                 <a target="_blank">
                                     <FaLinkedin />
                                 </a>
@@ -69,7 +69,6 @@ const Card = (props) => {
                 </div>
             </div>
         </div>
-        // </div>
     )
 }
 

@@ -1,31 +1,41 @@
 const executive = [
     {
-        name: 'Renuka A',
-        image: '/team/renuka.jpg',
-        pos:'Chief Executive Chair',
-        linkedin:"https://www.linkedin.com/in/renuka-a-25418a2a7/",
-        instagram:"https://www.instagram.com/prewttiesssss/",
+        name: 'Prajwal Pandey',
+        image: '/team/neura/Prajwal_Pandey.jpeg',
+        pos:'AI Specialist',
+        linkedin:"http://www.linkedin.com/in/prajwal-pandey14",
+        instagram:"https://www.instagram.com/prajwal_x8c/",
+        description:"Interested in AI/ML, with emphasis on NLP. Also very interested in psychology, writing, and acting.",
     },
     {
         name: 'Panchadip Bhattacharjee',
         image: '/team/panchadip.jpg',
-        pos:'Chief Technology Chair',
+        pos:'Tech Lead',
         linkedin:"https://www.linkedin.com/in/panchadip-bhattacharya-192388228/",
         instagram:"https://www.instagram.com/its_panchadip/",
     },
     {
-        name: 'Karthikeya Koganti',
-        image: '/team/Karthikeya_Koganti.jpg',
-        pos:'Vice Chair',
-        linkedin:"https://www.linkedin.com/in/karthikeya-chowdary-46a2681a7/",
-        instagram:"https://www.instagram.com/_.karthikeya._05/",
+        name: 'Yasaswini Suryadevara',
+        image: '/team/neura/yasaswini.JPG',
+        pos:'Executive Secretary',
+        linkedin:"https://www.linkedin.com/in/yasaswini-suryadevara-114154159",
+        instagram:"https://www.instagram.com/its._.yasaswini",
+        description:"Passionate about fostering AI innovation and education within the student community.Enthusiastic, musical, and book-obsessed organizer.",
     },
     {
-        name: 'Sashi Pritam',
-        image: '/team/Sashi_Pritam.jpg',
-        pos:'Vice Chair',
-        linkedin:"https://www.linkedin.com/in/sashi-pritam-m-a-8284b62b9/",
-        instagram:"https://www.instagram.com/shashi.pritam/",
+        name: 'Sambhav Kumar Sharma ',
+        image: '/team/neura/Sambhav_Sharma.jpeg',
+        pos:'Operations and Logistics Vice Head',
+        linkedin:"https://www.linkedin.com/in/sambhav-sharma-20a7482a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        instagram:"https://www.instagram.com/_.sambhav.0_?igsh=OHF0dmFxdmFqMWNk",
+        description:"Trained on logic, optimized for shenanigans, and always debugging life",
+    },
+    {
+        name: 'Tridib Jena',
+        image: '/team/neura/Tridib_Jena.jpeg',
+        pos:'Treasurer',
+        linkedin:"",
+        instagram:"https://www.instagram.com/tridibjena_?igsh=eWJtNTExMHppZTQ4",
     },
 ]
 
@@ -33,237 +43,80 @@ const dev_res = [
     {
         name: 'Saaheer Purav',
         image: '/team/Saaheer_Purav.jpg',
-        pos:'Web Dev Head',
+        pos:'Web Dev Team',
         linkedin:"https://www.linkedin.com/in/saaheer-purav/",
         instagram:"https://www.instagram.com/saaheerpurav/",
     },
     {
-        name: 'Akshit Gangwar',
-        image: '/team/Akshit_Gangwar.jpg',
-        pos:'Web Developer',
-        linkedin:"https://www.linkedin.com/in/akshit-gangwar-b93840282/",
-        instagram:"https://www.instagram.com/akki.pvt.ltd?igsh=MXFjN3gwZXl4aTg2dA==",
-    },
-    {
-        name: 'Arsh Edke',
-        image: '/team/Arsh_Edke.png',
-        pos:'Web Dev Vice-Head',
-        linkedin:"https://www.linkedin.com/in/arsh-kumar-edke-562568291/",
-        instagram:"https://www.instagram.com/arsh_edke21/",
-    },
-    {
-        name: 'Aarya Shah',
-        image: '/team/Aarya_Shah.jpg',
-        pos:'Research And Dev Head',
-        linkedin:"https://www.linkedin.com/in/aarya-shah-b92502283/",
-        instagram:"https://www.instagram.com/aar_ya_alright/",
-    },
-    {
-        name: 'Sohar Baba',
-        image: '/team/Sohar.JPG',
-        pos:'Research And Dev Vice-Head',
-        linkedin:"https://www.linkedin.com/in/sohar-baba-2a752122b/",
-        instagram:"https://www.instagram.com/i_am_sohar_18_?igsh=ZWF2and6cHpoeHdu",
-    },
-    {
-        name: 'Sai Sri Ram Reddy',
-        image: '/team/Sai_Sri_Ram_Reddy.jpg',
-        pos:'AI And ML Head',
-        linkedin:"https://www.linkedin.com/in/saisriramreddyk/",
-        instagram:"https://www.instagram.com/saisriramreddyk?igsh=Y2RhNDZlaGtxa3p3",
+        name: 'Adithi Jahnavi',
+        image: '/team/neura/Adithi_J.jpeg',
+        pos:'Web Dev Team',
+        linkedin:"https://www.linkedin.com/in/adithi-jahnavi-a50687350",
+        instagram:"https://www.instagram.com/ad1thii?igsh=MTVlNG5udGhkZXJtOQ%3D%3D&utm_source=qr",
+        description:"I'd say I'm fun, easygoing and believe a well written code can fix anything (except maybe my coffee addiction). Front-end, back-end or anything in between, I'd love to learn it all. If only my life had a debug button, I would've spotted all those red flags from a mile away.",
     }
 ]
 
 const events = [
     {
-        name: 'Ramineni Akshith',
-        image: '/team/Ramineni_Akshith.jpg',
-        pos:'Events and Ops Head',
-        linkedin:"https://www.linkedin.com/in/akshith-ramineni-77b033334?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        instagram:"https://www.instagram.com/akshith_ramineni_?igsh=b2pycjlhajQzdDFn",
+        name: 'Rashi Goyal',
+        image: '/team/neura/Rashi_Goyal.jpeg',
+        pos:'Operations and Logistics Team',
+        linkedin:"https://www.linkedin.com/in/rashi-goyal-1801a6314?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        instagram:"https://www.instagram.com/rashiii_927?igsh=eWJyamllYm9pdW1v&utm_source=qr",
+        description:"Always up for new experiences!"
     },
     {
-        name: 'Palak Bhardwaj',
-        image: '/team/Palak_Bhardwaj.jpeg',
-        pos:'Events and Ops Vice-Head',
-        linkedin:"https://www.linkedin.com/in/palak-bhardwaj-991678312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        instagram:"",
+        name: 'Dipen Singh',
+        image: '/team/neura/Dipen_Singh.jpeg',
+        pos:'Operations and Logistics Team',
+        linkedin:"https://www.linkedin.com/in/dipen-singh-1b0491348?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        instagram:"https://www.instagram.com/dipensinghh?igsh=YWtoY2J6b2RoOGJl&utm_source=qr",
     },
     {
-        name: 'Roshan Ravi Kiran',
-        image: '/team/Roshan_Ravi_Kiran.jpg',
-        pos:' Finance and Logistics Head',
-        linkedin:"https://www.linkedin.com/in/roshan-ravi-kiran/",
-        instagram:"https://www.instagram.com/rr_roshan311?igsh=NHZodTZpNzdnNmlw",
+        name: 'Livana Datta',
+        image: '/team/neura/Livana_Datta.jpeg',
+        pos:'Operations and Logistics Team',
+        linkedin:"https://in.linkedin.com/in/livana-datta-200452326",
+        instagram:"https://www.instagram.com/livanadatta?igsh=MW8yaXVwZTlhZ3V0dQ%3D%3D&utm_source=qr",
+        description:"I’ve always been passionate about AI and how it can make our lives more efficient. Organizing and planning come naturally to me—I was the treasurer of my school’s Interact Club, where I managed finances and helped put together events. Now, as part of the Operations & Logistics team in NeuraAI I make sure everything runs smoothly behind the scenes. Whether it’s coordinating events or finding better ways to integrate AI into our daily routines, I love being part of something that brings innovation to life!"
     },
-    {
-        name: 'Akshita Oberoi',
-        image: '/team/Akshita_Oberoi.jpg',
-        pos:'Logistics Vice-Head',
-        linkedin:"",
-        instagram:"https://www.instagram.com/oberoi_akshita_25?igsh=dmV2a2JwZnVteGVz",
-    },
-    {
-        name: 'Pranati Udawat',
-        image: '/team/Pranati_Uadawat.jpg',
-        pos:'HR Head',
-        linkedin:"https://www.linkedin.com/in/pranati-udawat-b1a4b3290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        instagram:"",
-    },
-    {
-        name: 'Ayush Kumar Singh',
-        image: '/team/Ayush_Kumar_Singh.png',
-        pos:'HR Vice-Head',
-        linkedin:"https://www.linkedin.com/in/singhayush19?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        instagram:"https://www.instagram.com/ayushhhks/",
-    },
-    {
-        name: 'Manoj Kumar Reddy',
-        image: '/team/Manoj_Kumar_Reddy.JPG',
-        pos:'Photography Head',
-        linkedin:"",
-        instagram:"https://www.instagram.com/manoj_reddy2007/",
-    },
-    {
-        name: 'Sreekar Reddy Pindi',
-        image: '/team/Sreekar_Reddy_Pindi.jpeg',
-        pos:'Photography Vice-Head',
-        linkedin:"https://www.linkedin.com/in/sreekar-reddy-p-8bb249287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app ",
-        instagram:"https://www.instagram.com/sreekar_reddy28/",
-    }
 ]
 
-const ambassadors = [
-    {
-        name: 'Vaishnavi Mairpady ',
-        image: '/team/Vaishnavi_Mairpady.jpg',
-        pos:'Ambassador MLS',
-        linkedin:"",
-        instagram:"https://www.instagram.com/shnaviwhy/",
-    },
-    {
-        name: 'Shreya Singh',
-        image: '/team/Shreya.jpg',
-        pos:'Ambassador MIT',
-        linkedin:"",
-        instagram:"https://www.instagram.com/shree_yaa5?igsh=MTRwanhwdXJ6NTA4dA==",
-    },
-    {
-        name: 'Tarini Tenneti',
-        image: '/team/Tarini_Tenneti.jpg',
-        pos:'Ambassador TAPMI',
-        linkedin:"https://www.linkedin.com/in/tarini-tenneti-35b8402b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        instagram:"https://www.instagram.com/_tariiz/",
-    },
-]
 
 const media = [
     {
-        name: 'Manasvi M ',
-        image: '/team/Manasvi_M.png',
-        pos:'Marketing Head',
-        linkedin:"",
-        instagram:"https://www.instagram.com/manaxx_7/",
+        name: 'Samaira Malik',
+        image: '/team/neura/Samaira_Malik.jpeg',
+        pos:'Marketing Team',
+        linkedin:"https://in.linkedin.com/in/samaira-malik-a06266264?trk=public_profile_samename-profile",
+        instagram:"https://www.instagram.com/samaira.malikkk/",
+        description:"I'm Samaira Malik, part of the marketing team at NEURA AI, passionate about technology, AI, and its real-world impact. With experience in web development, basketball, reading and writing, I enjoy blending creativity with innovation. Beyond AI, I have a strong background in theatre, piano and sustainability initiatives, always looking for ways to merge storytelling with technology to drive meaningful change."
     },
     {
-        name: 'Tavishi Gupta',
-        image: '/team/Tavishi_Gupta.jpg',
-        pos:'Marketing Vice-Head',
-        linkedin:"",
-        instagram:"https://www.instagram.com/tavishi0310/",
+        name: 'TANAY SANJAY',
+        image: '/team/neura/Tanay_Sanjay.jpeg',
+        pos:'Media Team',
+        linkedin:"http://www.linkedin.com/in/tanay-sanjay-a3224a340",
+        instagram:"https://www.instagram.com/dfwxtanay?igsh=MWRiZ2VlZ2R1ZXI1dA%3D%3D&utm_source=qr",
+        description:"I’m passionate about videography and video editing—basically, I spend way too much time making clips look cool while questioning all my life choices.I love turning raw footage into something cinematic, even if it means rewatching the same clip a hundred times until it feels right"
     },
     {
-        name: 'Jacqueline Lynda Leonard',
-        image: '/team/Jacqueline_Lynda_Leona.jpeg',
-        pos:'Social Media Head',
-        linkedin:"",
-        instagram:"https://www.instagram.com/_jacquelineleonard/",
+        name: 'Arnav Agarwal',
+        image: '/team/neura/Arnav_Agarwal.jpeg',
+        pos:'Media Team',
+        linkedin:"https://www.linkedin.com/in/arnav-agarwal-833220261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        instagram:"http://www.instagram.com/arnavagarwal.l",
+        description:"Hello Everyone, I am Arnav Agarwal, a student at MIT Bengaluru. I am a photographer from Lucknow and have won several photography competitions. "
     },
     {
-        name: 'Kankshitha Reddy',
-        image: '/team/Kankshitha_Reddy.jpg',
-        pos:'Social Media Vice-Head',
-        linkedin:"https://www.linkedin.com/in/kankshitha-reddy-5215b0242",
-        instagram:"https://www.instagram.com/kankshieee?igsh=cGRmYTNpcWZjNjhi",
-    },
-    {
-        name: 'Kartik Ganesh Dumpala',
-        image: '/team/Kartik_Ganesh.png',
-        pos:'Graphic Designer',
-        linkedin:"",
-        instagram:"https://www.instagram.com/kartik_bharadwaja/",
-    },
-    {
-        name: 'Mohith Akshay',
-        image: '/team/Mohith.jpg',
-        pos:'Graphic Designer',
-        linkedin:"https://www.linkedin.com/in/d-mohith-akshay-3447a5295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        instagram:"https://www.instagram.com/d.mohith.akshay?igsh=bzgxem92Y2RsY3Bu",
-    },
-
-]
-
-
-const exec = [
-    {
-        name: 'Sai Koushik Cheruku',
-        image: '/team/Sai_Kaushik_Cheruku.jpg',
-        pos:'',
-        linkedin:"https://www.linkedin.com/in/saikoushikcheruku?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        instagram:"https://www.instagram.com/_its_koushikk_/",
-    },
-    {
-        name: 'Sai Mani Karthik Gandla ',
-        image: '/team/Sai_Mani_Karthik_Gandla.png',
-        pos:'',
-        linkedin:"",
-        instagram:"https://www.instagram.com/saimanikarthikg_13/",
-    },
-    {
-        name: 'Tanay V Gorur',
-        image: '/team/Tanay Gorur.jpg',
-        pos:'',
-        linkedin:"",
-        instagram:"https://www.instagram.com/xcallibber/",
-    },
-    {
-        name: 'Tanvi Khandelwal',
-        image: '/team/Tanvi_Khanna.jpg',
-        pos:'',
-        linkedin:"https://www.linkedin.com/in/tanvi-khandelwal-a8403b24a",
-        instagram:"https://www.instagram.com/_txnviii_/",
+        name: 'Pranshu Thakkar',
+        image: '/team/neura/Pranshu_Thakur.jpeg',
+        pos:'Graphic Designing Team',
+        linkedin:"https://www.linkedin.com/in/pranshu-t-aba933325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        instagram:"https://www.instagram.com/pranshu._.thakkar?igsh=MTV2NzBrcnQ4YW1ieQ==",
+        description:"Have edited a book called Vismrit Shaurya and have worked on multiple Graphc Designing projects in various clubs"
     },
 ]
 
-
-const advisory = [
-    {
-        name: 'Dr T Gopalakrishnan',
-        image: '/team/Dr_T_Gopalakrishnan.png',
-        pos:'',
-        linkedin:"https://www.linkedin.com/in/gopalakrishnan-thirumoorthy-9a7b8b17?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        instagram:"",
-    },
-    {
-        name: 'Dr Jyoti Shetty',
-        image: '/team/Dr_Jyoti_Shetty.png',
-        pos:'',
-        linkedin:"https://www.linkedin.com/in/dr-jyoti-shetty/",
-        instagram:"",
-    },
-    {
-        name: 'Sourav G Pai',
-        image: '/team/saurav.png',
-        pos:'',
-        linkedin:"https://www.linkedin.com/in/sourav-g-pai-54106a26b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        instagram:"https://www.instagram.com/sourav.g.pai/",
-    },
-    {
-        name: 'Mohammed Fazil Hussain',
-        image: '/team/fazil.png',
-        pos:'',
-        linkedin:"https://www.linkedin.com/in/fazil-hussain-md?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        instagram:"https://www.instagram.com/fazilhussain_______offical/",
-    }
-]
-export { executive, ambassadors,exec,events,media,dev_res,advisory }
+export { executive,events,media,dev_res }
